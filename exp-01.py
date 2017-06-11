@@ -131,5 +131,5 @@ model.compile(loss='categorical_crossentropy', optimizer='rmsprop',
 #-------------------------------------------------------------------
 # start learning
 model.fit(x_train, y_train, validation_data=(x_val, y_val),
-            epochs=5, batch_size=10)
+            epochs=20, batch_size=10)
 	
