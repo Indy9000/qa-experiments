@@ -12,11 +12,11 @@ from keras.models import Model
 import csv
 
 BASE_DIR = './data'
-GLOVE_DIR = BASE_DIR + '/glove.6B/'
+GLOVE_DIR = BASE_DIR + '/glove.42B/'
 WANG_DATA_DIR = BASE_DIR + '/wang/'
-MAX_SEQUENCE_LENGTH = 500
+MAX_SEQUENCE_LENGTH = 70
 MAX_NB_WORDS = 20000
-EMBEDDING_DIM = 100
+EMBEDDING_DIM = 300
 VALIDATION_SPLIT = 0.2
 
 
@@ -52,6 +52,15 @@ tokenizer = Tokenizer(num_words=MAX_NB_WORDS)
 tokenizer.fit_on_texts(texts)
 sequences = tokenizer.texts_to_sequences(texts)
 
+###
+max_s_len = -1
+for s in sequences:
+    if max_s_len < len(s):
+        max_s_len = len(s)
+
+print("max seq len=",max_s_len)
+###
+
 word_index = tokenizer.word_index
 print('Found %s unique tokens' % len(word_index))
 
@@ -83,7 +92,7 @@ print('Shape of validation labels', y_val.shape)
 
 print('Loading word vectors.')
 embeddings_index = {}
-f = open(os.path.join(GLOVE_DIR,'glove.6B.100d.txt'))
+f = open(os.path.join(GLOVE_DIR,'glove.42B.300d.txt'))
 for line in f:
     values = line.split()
     word = values[0]
@@ -94,12 +103,17 @@ f.close()
 print('Found %s word vectors.' % len(embeddings_index))
 
 # create the embedding matrix
+words_without_embeddings = 0
 embedding_matrix = np.zeros((len(word_index) + 1, EMBEDDING_DIM))
 for word, i in word_index.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
         # words not found in embedding index will be all zeros
         embedding_matrix[i] = embedding_vector
+        # print('Word Not found in embeddings',word)
+        words_without_embeddings += 1
+
+print('words without embeddings =', words_without_embeddings)
 
 # load the embedding matrix into a frozen layer
 embedding_layer = Embedding(len(word_index) + 1,
