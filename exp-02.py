@@ -6,7 +6,7 @@ import numpy as np
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
-from keras.layers import Dense, Input, Flatten
+from keras.layers import Dense, Input, Flatten, Dropout
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 from keras.models import Model
 import csv
@@ -20,6 +20,18 @@ MAX_NB_WORDS = 20000
 EMBEDDING_DIM = 100
 VALIDATION_SPLIT = 0.2
 
+# command line arguments
+conv1d_filter_count = int(sys.argv[1])
+conv1d_filter_kernel_size = int(sys.argv[2])
+max_pooling_window_size = int(sys.argv[3])
+#dense_units = 15
+dropout_rate = float(sys.argv[4])
+batch_size = int(sys.argv[5])
+epoch_count = int(sys.argv[6])
+print('filter-count = ',conv1d_filter_count,'kernel-size=',conv1d_filter_kernel_size,
+        'pooling-window=',max_pooling_window_size,'dropout=',dropout_rate,
+        'batch-size=',batch_size,'epoch-count=',epoch_count)
+# ----------------------
 
 # prepare text samples and their labels
 print('Processing text dataset')
@@ -116,13 +128,13 @@ for word, i in word_index.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is None:
         # words not found in embedding index will be all zeros
-        print('Word Not found in embeddings',word)
+        #print('Word Not found in embeddings',word)
         words_without_embeddings += 1
     else:
         embedding_matrix[i] = embedding_vector
         #print('embedding vector = ', embedding_vector)
 
-print('words without embeddings =', words_without_embeddings)
+#print('words without embeddings =', words_without_embeddings)
 
 # load the embedding matrix into a frozen layer
 embedding_layer = Embedding(len(word_index) + 1,
@@ -132,25 +144,32 @@ embedding_layer = Embedding(len(word_index) + 1,
                             trainable=False)
 
 #-------------------------------------------------------------------
+
+#conv1d_filter_count = sys.argv[1]
+#conv1d_filter_kernel_size = sys.argv[2]
+#max_pooling_window_size = sys.argv[3]
+#dropout_rate = sys.argv[4]
+#batch_size = sys.argv[5]
+#epoch_count = sys.argv[6]
+
 # build model
+print('len(labels)',len(labels))
+
 sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
 print('shape inp = ', sequence_input.shape)
 embedded_sequences = embedding_layer(sequence_input)
 print('shape embed = ', embedded_sequences.shape)
-x = Conv1D(100,5, activation='relu')(embedded_sequences)
+x = Conv1D(conv1d_filter_count,conv1d_filter_kernel_size, activation='relu')(embedded_sequences)
 print('shape conv1d = ',x.shape)
-x = MaxPooling1D(5)(x)
+x = MaxPooling1D(max_pooling_window_size)(x)
 print('shape maxp1d = ',x.shape)
-#x = Conv1D(100,5, activation='relu')(x)
-#print('shape conv1d = ',x.shape)
-#x = MaxPooling1D(5)(x)
-#print('shape maxp1d = ',x.shape)
 x = Flatten()(x)
 print('shape flat = ',x.shape)
-x = Dense(5, activation='relu')(x)
-print('shape dense = ',x.shape)
-
-print('len(labels)',len(labels))
+#x = Dense(15, activation='relu')(x)
+#print('shape dense = ',x.shape)
+x = Dropout(dropout_rate)(x)
+#x = Dense(5, activation='relu')(x)
+#print('shape dense = ',x.shape)
 
 preds = Dense(len(labels_index), activation='softmax')(x)
 print('shape dense = ',preds.shape)
@@ -161,5 +180,5 @@ model.compile(loss='categorical_crossentropy', optimizer='rmsprop',
 #-------------------------------------------------------------------
 # start learning
 model.fit(x_train, y_train, validation_data=(x_val, y_val),
-            epochs=20, batch_size=280)
+            epochs=epoch_count, batch_size=batch_size)
 	
