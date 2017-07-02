@@ -120,12 +120,13 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int):float=
   echo "Excuting agent ",generation,popIndex
   let filename = "output-" & $(generation) & $(popIndex)
   #execute python script with parameters extracted from agent object
-  let retval = execShellCmd("runner.sh " & $(agent.epochCount) & " " &
-                              $(agent.batchSize) & " "  & 
+  let retval = execShellCmd("python exp-02.py " & 
                               $(agent.filterCount) & " "  &
                               $(agent.kernelSize) & " " &
+                              $(agent.poolingWindow) & " " &
                               $(agent.dropout) & " "  &
-                              $(agent.denseSize) & " |" & filename
+                              $(agent.batchSize) & " "  & 
+                              $(agent.epochCount) & " > " & filename
               )
 
   #once finished, parse output
