@@ -1,6 +1,12 @@
 import os, unicode, strutils, streams, tables, parsecsv, algorithm
 
-proc parse_output(filename:string) = 
+proc parse_output(filename:string) : tuple[tl:seq[float],ta:seq[float],
+                                          vl:seq[float],va:seq[float]] = 
+  var tr_loss = @[1.0]
+  var tr_acc  = @[0.0]
+  var va_loss = @[1.0]
+  var va_acc  = @[0.0]
+
   for line in lines filename:
     if "val_loss" in line:
       let li = line.strip()
@@ -10,14 +16,31 @@ proc parse_output(filename:string) =
         let ll = li[(k+len(token)) .. ^1]
         let tokens = splitWhitespace(ll)
         echo "tr_loss ",tokens[4]," tr_acc ",tokens[7]," va_loss ",tokens[10]," va_acc ",tokens[13]
+        tr_loss.add(parseFloat(tokens[4]))
+        tr_acc.add(parseFloat(tokens[7]))
+        va_loss.add(parseFloat(tokens[10]))
+        va_acc.add(parseFloat(tokens[13]))
 
+  return (tr_loss,tr_acc,va_loss,va_acc)
+
+proc evaluate_performance(tl:seq[float], ta:seq[float],
+                          vl:seq[float], va:seq[float]):float =
+  for vv in 0..len(ta)-1:
+    if ta[vv] >= 0.98:
+      let tl = if tl[vv] > 1.0: 1.0 else: (1.0-tl[vv])
+      let vl = if vl[vv] > 1.0: 1.0 else: (1.0-vl[vv])
+      return ta[vv] * tl * va[vv] * vl
+  let ee = len(ta)-1
+  return ta[ee] * (1.0 - tl[ee]) * va[ee] * (1.0 - vl[ee])
 
 proc main() =
   if paramCount() != 1:
     quit("synopsis: " & getAppFilename() & " exp-output-filename")
   let filename = paramStr(1)
-  parse_output(filename)
-
+  let (tl,ta,vl,va) = parse_output(filename)
+  
+  let fitness = evaluate_performance(tl,ta,vl,va)
+  echo "fitness ", fitness
 
 main()
 
