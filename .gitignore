@@ -1,4 +1,13 @@
+*.txt
 *.swp
 data/glove.6B/*
 dataset-loader.py
-
+ea
+eax
+nimcache/
+output_parser
+temp
+temp.nim
+v1/data/
+v1/ea
+v1/nimcache/

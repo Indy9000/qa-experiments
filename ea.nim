@@ -1,18 +1,17 @@
-import os, unicode, strutils, streams, tables, parsecsv, algorithm, random
+import os, unicode, strutils, streams, tables, parsecsv, algorithm, random, threadpool
 
 const
-  GenerationCount = 500
-  PopulationCount = 100
-  ChromosomeLength = 10
-  MutationProbability = 0.2
-  CrossoverProbability = 0.5
+#  GenerationCount = 10
+#  PopulationCount = 10
+  ChromosomeLength = 6
+#  MutationProbability = 0.2
+#  CrossoverProbability = 0.5
 type
   TChromosome = array[ChromosomeLength,float]
-  TPopulation = array[PopulationCount,TChromosome]
-  TFitness = array[PopulationCount,float]
-  TAgent = tuple[epochCount:int, batchSize:int, 
-                  filterCount:int, kernelSize:int, 
-                  dropout:float,denseSize:int]
+#  TPopulation = array[PopulationCount,TChromosome]
+#  TFitness = array[PopulationCount,float]
+  TAgent = tuple[ filterCount:int, kernelSize:int, poolingWindow:int,
+                  dropout:float, batchSize:int, epochCount:int]
 # --------------------------------------------------------------------------------------------
 proc get_random_vector[T]():array[ChromosomeLength, T] =
   var vector:array[ChromosomeLength, T]
@@ -46,18 +45,20 @@ proc mutate(winner:TChromosome, loser:var TChromosome, p_mu:float, p_xo:float)=
       #clip to the 0..1 range and apply
       loser[i] = if tv < 0.0: 0.0 else: (if tv>1.0: 1.0 else: tv)
 # --------------------------------------------------------------------------------------------
-proc tournament(population:var TPopulation, fitness:TFitness, p_mu:float, p_xo:float) =
+proc tournament(population:var openArray[TChromosome], fitness:openArray[float], p_mu:float, p_xo:float) =
   # divide the population into two and pit them against each other
   # based on their fitness
-  var indices:array[PopulationCount,int]
+ # var indices:array[PopulationCount,int]
+  let popSize = len(population)
+  var indices = newSeq[int](popSize)
   #initialise indices
-  for i in 0..PopulationCount-1:
+  for i in 0..popSize-1:
     indices[i] = i;
   #inplace random shuffle
   shuffle(indices) 
 
   var i = 0
-  while i < PopulationCount-1:
+  while i < popSize-1:
     if fitness[i] > fitness[i+1]:
       mutate(population[i], population[i+1], p_mu, p_xo)
     else:
@@ -72,12 +73,12 @@ proc map_chromosome(chromosome:TChromosome):TAgent =
   var agent:TAgent
 
   agent = (
-    epochCount:linear_scale(chromosome[0], 10,100), 
-    batchSize:linear_scale(chromosome[1],5,300),
-    filterCount:linear_scale(chromosome[2],2,100),
-    kernelSize:linear_scale(chromosome[3],2,6),
-    dropout:chromosome[4],
-    denseSize:linear_scale(chromosome[5],5,50)
+    filterCount:linear_scale(chromosome[0],2,100),
+    kernelSize:linear_scale(chromosome[1],2,6),
+    poolingWindow:linear_scale(chromosome[2],5,50),
+    dropout:chromosome[3],
+    batchSize:linear_scale(chromosome[4],5,300),
+    epochCount:linear_scale(chromosome[5],10,100) 
   )
   return agent
 # --------------------------------------------------------------------------------------------
@@ -117,8 +118,8 @@ proc compute_performance(tl:seq[float], ta:seq[float],
 
 # --------------------------------------------------------------------------------------------
 proc execute_agent(agent:TAgent, generation:int, popIndex:int):float=
-  echo "Excuting agent ",generation,popIndex
-  let filename = "output-" & $(generation) & $(popIndex)
+  echo "Excuting agent " & intToStr(generation,4) & "-" & intToStr(popIndex,4)
+  let filename = "output-" & intToStr(generation,4) & "-" & intToStr(popIndex,4) & ".txt"
   #execute python script with parameters extracted from agent object
   let retval = execShellCmd("python exp-02.py " & 
                               $(agent.filterCount) & " "  &
@@ -136,46 +137,50 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int):float=
   return fitness
 
 # --------------------------------------------------------------------------------------------
-proc evaluate_population(population:TPopulation, generation:int):
-            tuple[fitness:TFitness,max_fitness:float,best_agent:TAgent] = 
-  var
-    i = 0
-    fitness:TFitness
-    max_fitness:float
-    best_agent:TAgent
+proc evaluate_population(population:openArray[TChromosome], fitness:var openArray[float], generation:int):
+            tuple[max_fitness:float,best_agent:TAgent] = 
+
   # evaluate each agent
-  for c in population:
-    # express each chromosome
-    let agent = map_chromosome(c)   
-    # execute each agent
-    fitness[i] = execute_agent(agent, generation, i)
-    
+  parallel:
+    for i in 0..len(population)-1:
+      # express each chromosome
+      let agent = map_chromosome(population[i])   
+      # execute each agent
+      fitness[i] = execute_agent(agent, generation, i)
+  
+  var
+    max_fitness:float
+    max_index:int
+  for i in 0..len(population)-1:
     if max_fitness <= fitness[i]:
       max_fitness = fitness[i]
-      best_agent = agent
-    
-    i += 1
+      max_index = i
+
+  let best_agent = map_chromosome(population[max_index])
   
-  return (fitness, max_fitness, best_agent)
+  return (max_fitness, best_agent)
 
 # --------------------------------------------------------------------------------------------
 proc main() =
-  if paramCount() != 1:
-    quit("synopsis: " & getAppFilename() & " exp-output-filename")
+  if paramCount() != 4:
+    quit("synopsis: " & getAppFilename() & " generation-count population-size mup xop")
 
-  let filename = paramStr(1)
-  
+  let GenerationCount = parseInt(paramStr(1))
+  let PopulationSize = parseInt(paramStr(2))
+  let MutationProbability = parseFloat(paramStr(3))
+  let CrossoverProbability = parseFloat(paramStr(4))
+
   var
-    population:TPopulation
-    fitness:TFitness
+    population = newSeq[TChromosome](PopulationSize)
+    fitness = newSeq[float](PopulationSize)
 
   # generate a random population
-  for i in 0..PopulationCount-1:
+  for i in 0..PopulationSize-1:
     population[i] = get_random_vector[float]()
     fitness[i] = 0.0
 
   for g in 0..GenerationCount-1:
-    let (fitness, max_fitness, best_agent) = evaluate_population(population, g)
+    let (max_fitness, best_agent) = evaluate_population(population, fitness, g)
     echo "Best fitness =", max_fitness, best_agent
     tournament(population, fitness, MutationProbability, CrossoverProbability)
 # --------------------------------------------------------------------------------------------
