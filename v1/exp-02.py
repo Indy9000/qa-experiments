@@ -45,7 +45,7 @@ def load_dataset(filename):
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         next(reader, None) #skip header (question,label,answer)
         for row in reader:
-            qa = row[0] + row[2] #append question and answer
+            qa = row[0]+" "+ row[2] #append question and answer
             label = row[1]
             texts.append(qa)
             label_id = 0

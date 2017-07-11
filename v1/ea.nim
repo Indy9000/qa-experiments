@@ -2,15 +2,9 @@ import os, unicode, strutils, streams, tables, parsecsv, algorithm, random, thre
 
 
 const
-#  GenerationCount = 10
-#  PopulationCount = 10
   ChromosomeLength = 6
-#  MutationProbability = 0.2
-#  CrossoverProbability = 0.5
 type
   TChromosome = tuple[Chromo:array[ChromosomeLength,float], fitness:float]
-#  TPopulation = array[PopulationCount,TChromosome]
-#  TFitness = array[PopulationCount,float]
   TAgent = tuple[ filterCount:int, kernelSize:int, poolingWindow:int,
                   dropout:float, batchSize:int, epochCount:int]
 # --------------------------------------------------------------------------------------------
@@ -118,9 +112,13 @@ proc compute_performance(tl:seq[float], ta:seq[float],
   return ta[ee] * (1.0 - tl[ee]) * va[ee] * (1.0 - vl[ee])
 
 # --------------------------------------------------------------------------------------------
-proc execute_agent(agent:TAgent, generation:int, popIndex:int):float=
+proc execute_agent(agent:TAgent, generation:int, popIndex:int,output_dir:string):float=
   echo "Excuting agent " & intToStr(generation,4) & "-" & intToStr(popIndex,4)
-  let filename = "output-" & intToStr(generation,4) & "-" & intToStr(popIndex,4) & ".txt"
+  let filename = output_dir & 
+                  "/output-" & 
+                  intToStr(generation,4) & 
+                  "-" & 
+                  intToStr(popIndex,4) & ".txt"
   #execute python script with parameters extracted from agent object
   let retval = execShellCmd("python exp-02.py " & 
                               $(agent.filterCount) & " "  &
@@ -139,15 +137,17 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int):float=
 
 # --------------------------------------------------------------------------------------------
 {.experimental.}
-proc evaluate_population(population:var openArray[TChromosome], generation:int):
-                                                 tuple[max_fitness:float,best_agent:TAgent] = 
+proc evaluate_population(population:var openArray[TChromosome], generation:int, 
+                         output_dir:string):
+                                                  tuple[max_fitness:float,best_agent:TAgent] = 
 
   # evaluate each agent
   parallel:
     for i in 0..len(population)-1:
       # express each chromosome
       # execute each agent
-      population[i].fitness = spawn execute_agent(map_chromosome(population[i]), generation, i)
+      population[i].fitness = spawn execute_agent(map_chromosome(population[i]), generation, i, 
+                                                  output_dir)
   
   var
     max_fitness:float
@@ -163,13 +163,14 @@ proc evaluate_population(population:var openArray[TChromosome], generation:int):
 
 # --------------------------------------------------------------------------------------------
 proc main() =
-  if paramCount() != 4:
-    quit("synopsis: " & getAppFilename() & " generation-count population-size mup xop")
+  if paramCount() != 5:
+    quit("synopsis: " & getAppFilename() & " generation-count population-size mup xop output-dir")
 
   let GenerationCount = parseInt(paramStr(1))
   let PopulationSize = parseInt(paramStr(2))
   let MutationProbability = parseFloat(paramStr(3))
   let CrossoverProbability = parseFloat(paramStr(4))
+  let output_dir = paramStr(5)
 
   var
     population = newSeq[TChromosome](PopulationSize)
@@ -180,7 +181,7 @@ proc main() =
     population[i].fitness = 0.0
 
   for g in 0..GenerationCount-1:
-    let (max_fitness, best_agent) = evaluate_population(population, g)
+    let (max_fitness, best_agent) = evaluate_population(population, g, output_dir)
     echo "Best fitness =", max_fitness, best_agent
     tournament(population, MutationProbability, CrossoverProbability)
 # --------------------------------------------------------------------------------------------
