@@ -77,43 +77,30 @@ proc map_chromosome(c:TChromosome):TAgent =
   )
   return agent
 # --------------------------------------------------------------------------------------------
-proc parse_output(filename:string) : tuple[tl:seq[float],ta:seq[float],
-                                          vl:seq[float],va:seq[float]] =
-  var tr_loss = @[1.0]
-  var tr_acc  = @[0.0]
-  var va_loss = @[1.0]
-  var va_acc  = @[0.0]
+proc parse_output(filename:string) : (float,float,float,float) =
+  #Line to look for an parse
+  #Metrics-val: precision= 1.0 ,recall= 0.136363636364 ,f1= 0.24 ,avg_prec= 0.598404511713
 
+  let token="Metrics-val:"
+  var precision,recall,f1,avg_prec : float
   for line in lines filename:
-    if "val_loss" in line:
-      let li = line.strip()
-      let token="[==============================]"
-      let k = li.find(token)
-      if k > -1:
-        let ll = li[(k+len(token)) .. ^1]
-        let tokens = splitWhitespace(ll)
-        echo "tr_loss ",tokens[4]," tr_acc ",tokens[7]," va_loss ",tokens[10]," va_acc ",tokens[13]
-        tr_loss.add(parseFloat(tokens[4]))
-        tr_acc.add(parseFloat(tokens[7]))
-        va_loss.add(parseFloat(tokens[10]))
-        va_acc.add(parseFloat(tokens[13]))
+    let k = line.find(token)
+    if k > -1:
+       let k=line.find(token)
+       let ll = line[(k+len(token)) .. ^1]
+       let split_tokens = splitWhitespace(ll)
+       precision = parseFloat(split_tokens[1])
+       recall    = parseFloat(split_tokens[3])
+       f1        = parseFloat(split_tokens[5])
+       avg_prec  = parseFloat(split_tokens[7])
 
-  return (tr_loss,tr_acc,va_loss,va_acc)
+  return (precision,recall,f1,avg_prec)
 
 # --------------------------------------------------------------------------------------------
-proc compute_performance(tl:seq[float], ta:seq[float],
-                         vl:seq[float], va:seq[float]):(float,string) =
-  for vv in 0..len(ta)-1:
-    if ta[vv] >= 0.98:
-      let tll = if tl[vv] > 1.0: 1.0 else: (1.0-tl[vv])
-      let vll = if vl[vv] > 1.0: 1.0 else: (1.0-vl[vv])
-      #let data = format("ta=%0.4f, va=%0.4f, tl=%0.4f, vl=%0.4f",ta[vv],va[vv],tl[vv],vl[vv]) 
-      let data = "ta=" & $(ta[vv]) & ", va=" & $(va[vv]) & ", tl=" & $(tl[vv]) & " vl=" & $(vl[vv])
-      return (ta[vv] * va[vv], data)
-  let ee = len(ta)-1
-  #let data = format("ta=%0.4f, va=%0.4f, tl=%0.4f, vl=%0.4f",ta[ee],va[ee],tl[ee],vl[ee]) 
-  let data = "ta=" & $(ta[ee]) & ", va=" & $(va[ee]) & " tl=" & $(tl[ee]) & " vl=" & $(vl[ee])
-  return (ta[ee] * va[ee], data)
+proc compute_performance(precision:float, recall:float, f1:float, avg_prec:float):(float,string) =
+  let data = "precision=" & $(precision) & ", recall=" & $(recall) & 
+                ", f1=" & $(f1) & ", avg_prec=" & $(avg_prec)
+  return (f1, data)
 
 # --------------------------------------------------------------------------------------------
 proc execute_agent(agent:TAgent, generation:int, popIndex:int,output_dir:string):float=
@@ -134,16 +121,16 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int,output_dir:string)
               )
 
   #once finished, parse output
-  let (tl,ta,vl,va) = parse_output(filename)
-  let (fitness,data) = compute_performance(tl,ta,vl,va)
+  let (p,r,f1,ap) = parse_output(filename)
+  let (fitness,data) = compute_performance(p,r,f1,ap)
   echo "fitness ",generation," ",popIndex," ",fitness," ",data
   return fitness
 
 # --------------------------------------------------------------------------------------------
 {.experimental.}
 proc evaluate_population(population:var openArray[TChromosome], 
-                         generation:int, 
-                         output_dir:string):(float, TAgent, int) = 
+                                generation:int, 
+                                output_dir:string):(float, TAgent, int) = 
 
   # evaluate each agent
   parallel:
@@ -158,8 +145,8 @@ proc evaluate_population(population:var openArray[TChromosome],
     max_index:int
   for i in 0..len(population)-1:
     if max_fitness <= population[i].fitness:
-      max_fitness = population[i].fitness
-      max_index = i
+         max_fitness = population[i].fitness
+         max_index = i
 
   let best_agent = map_chromosome(population[max_index])
   

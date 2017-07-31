@@ -105,14 +105,12 @@ proc compute_performance(tl:seq[float], ta:seq[float],
                          vl:seq[float], va:seq[float]):(float,string) =
   for vv in 0..len(ta)-1:
     if ta[vv] >= 0.98:
-      let tll = if tl[vv] > 1.0: 1.0 else: (1.0-tl[vv])
-      let vll = if vl[vv] > 1.0: 1.0 else: (1.0-vl[vv])
-      #let data = format("ta=%0.4f, va=%0.4f, tl=%0.4f, vl=%0.4f",ta[vv],va[vv],tl[vv],vl[vv]) 
-      let data = "ta=" & $(ta[vv]) & ", va=" & $(va[vv]) & ", tl=" & $(tl[vv]) & " vl=" & $(vl[vv])
+      let tl = if tl[vv] > 1.0: 1.0 else: (1.0-tl[vv])
+      let vl = if vl[vv] > 1.0: 1.0 else: (1.0-vl[vv])
+      let data = "ta=" & $(ta[vv]) & ", va=" & $(va[vv])
       return (ta[vv] * va[vv], data)
   let ee = len(ta)-1
-  #let data = format("ta=%0.4f, va=%0.4f, tl=%0.4f, vl=%0.4f",ta[ee],va[ee],tl[ee],vl[ee]) 
-  let data = "ta=" & $(ta[ee]) & ", va=" & $(va[ee]) & " tl=" & $(tl[ee]) & " vl=" & $(vl[ee])
+  let data = "ta=" & $(ta[ee]) & ", va=" & $(va[ee])
   return (ta[ee] * va[ee], data)
 
 # --------------------------------------------------------------------------------------------
@@ -124,7 +122,7 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int,output_dir:string)
                   "-" & 
                   intToStr(popIndex,4) & ".txt"
   #execute python script with parameters extracted from agent object
-  let retval = execShellCmd("python exp-04.py " & 
+  let retval = execShellCmd("python exp-03.py " & 
                               $(agent.filterCount) & " "  &
                               $(agent.kernelSize) & " " &
                               $(agent.poolingWindow) & " " &
@@ -142,8 +140,8 @@ proc execute_agent(agent:TAgent, generation:int, popIndex:int,output_dir:string)
 # --------------------------------------------------------------------------------------------
 {.experimental.}
 proc evaluate_population(population:var openArray[TChromosome], 
-                         generation:int, 
-                         output_dir:string):(float, TAgent, int) = 
+                                generation:int, 
+                                output_dir:string):(float, TAgent, int) = 
 
   # evaluate each agent
   parallel:
@@ -158,8 +156,8 @@ proc evaluate_population(population:var openArray[TChromosome],
     max_index:int
   for i in 0..len(population)-1:
     if max_fitness <= population[i].fitness:
-      max_fitness = population[i].fitness
-      max_index = i
+         max_fitness = population[i].fitness
+         max_index = i
 
   let best_agent = map_chromosome(population[max_index])
   

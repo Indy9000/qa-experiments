@@ -9,6 +9,10 @@ from keras.utils import to_categorical
 from keras.layers import Dense, Input, Flatten, Dropout
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 from keras.models import Model
+from keras import backend as K
+from keras import callbacks as CB
+
+import sklearn.metrics as sklm
 import csv
 
 BASE_DIR = './data'
@@ -27,7 +31,6 @@ print('Processing text dataset')
 #----------------------
 texts = [] # list of text samples
 labels = [] # list of label ids
-labels_index = {} # dictionary mapping label name to numeric id
 
 def load_dataset(filename):
     with open(WANG_DATA_DIR + filename, 'rb') as csvfile:
@@ -35,15 +38,9 @@ def load_dataset(filename):
         next(reader, None) #skip header (question,label,answer)
         for row in reader:
             qa = row[0]+" "+ row[2] #append question and answer
-            label = row[1]
+            label = int(row[1].strip())
             texts.append(qa)
-            label_id = 0
-            if label in labels_index:
-                label_id = labels_index[label]
-            else:
-                label_id = len(labels_index)
-            labels_index[label] = label_id 
-            labels.append(label_id)
+            labels.append(label)
 
     print('Found %s samples' % len(texts))
 
@@ -54,8 +51,8 @@ tokenizer = Tokenizer(num_words=MAX_NB_WORDS)
 tokenizer.fit_on_texts(texts)
 sequences = tokenizer.texts_to_sequences(texts)
 
-print("Seq=",sequences)
-exit()
+#print("Seq=",sequences)
+#exit()
 
 ###
 max_s_len = -1
@@ -70,8 +67,10 @@ word_index = tokenizer.word_index
 print('Found %s unique tokens' % len(word_index))
 
 data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
-
-labels = to_categorical(np.asarray(labels))
+#print("labels =",labels)
+#print("np.asarray(labels)=",np.asarray(labels))
+#labels = to_categorical(np.asarray(labels))
+labels = np.asarray(labels)
 print('Shape of data tensor:', data.shape)
 print('Shape of label tensor:', labels.shape)
 
@@ -140,13 +139,13 @@ embedding_layer = Embedding(len(word_index) + 1,
 conv1d_filter_count = int(sys.argv[1])
 conv1d_filter_kernel_size = int(sys.argv[2])
 max_pooling_window_size = int(sys.argv[3])
-#dense_units = 15
-dropout_rate = float(sys.argv[4])
-batch_size = int(sys.argv[5])
-epoch_count = int(sys.argv[6])
-print('filter-count = ',conv1d_filter_count,'kernel-size=',          conv1d_filter_kernel_size,
-    'pooling-window=',max_pooling_window_size,'dropout=',dropout_rate,
-    'batch-size=',batch_size,'epoch-count=',epoch_count)
+dense_size = int(sys.argv[4])
+dropout_rate = float(sys.argv[5])
+batch_size = int(sys.argv[6])
+epoch_count = int(sys.argv[7])
+print('filter-count = ', conv1d_filter_count, 'kernel-size=', conv1d_filter_kernel_size,
+      'pooling-window=', max_pooling_window_size, 'dense-size', dense_size, 'dropout=', dropout_rate,
+      'batch-size=', batch_size, 'epoch-count=', epoch_count)
 #-------------------------------------------------------------------
 
 # build model
@@ -162,19 +161,57 @@ x = MaxPooling1D(max_pooling_window_size)(x)
 print('shape maxp1d = ',x.shape)
 x = Flatten()(x)
 print('shape flat = ',x.shape)
-#x = Dense(15, activation='relu')(x)
+x = Dense(dense_size, activation='relu')(x)
 #print('shape dense = ',x.shape)
 x = Dropout(dropout_rate)(x)
 #x = Dense(5, activation='relu')(x)
 #print('shape dense = ',x.shape)
 
-preds = Dense(len(labels_index), activation='softmax')(x)
+preds = Dense(1, activation='sigmoid')(x)
 print('shape dense = ',preds.shape)
 model = Model(sequence_input, preds)
-model.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['acc'])
+
+model.compile(loss='binary_crossentropy', 
+              optimizer='adam', 
+              metrics=['accuracy'])
+
+class Metrics(CB.Callback):
+    def __init__(self,x_train,y_train):
+        self.training_X = x_train
+        self.training_Y = y_train
+
+    def on_epoch_end(self, epoch, logs={}):
+        pred = self.model.predict(self.training_X)
+        #print("pred=", pred)
+        prediction = np.round(np.asarray(pred))
+        target = self.training_Y
+        precision = sklm.precision_score(target, prediction)
+        recall = sklm.recall_score(target, prediction)
+        f1_score = sklm.f1_score(target, prediction)
+        avg_precision = sklm.average_precision_score(target,prediction,average='weighted')
+        print("\nMetrics-train:",
+              "precision=", precision, ",recall=", recall, 
+              ",f1=", f1_score, ",avg_prec=", avg_precision)
+    
+        pred = self.model.predict(self.validation_data[0])
+        prediction = np.round(np.asarray(pred))
+        target = self.validation_data[1]
+        precision = sklm.precision_score(target, prediction)
+        recall = sklm.recall_score(target, prediction)
+        f1_score = sklm.f1_score(target, prediction)
+        avg_precision = sklm.average_precision_score(target,prediction,average='weighted')
+        print("Metrics-val:", 
+              "precision=", precision, ",recall=", recall, 
+              ",f1=", f1_score, ",avg_prec=", avg_precision)
+
+metrics = Metrics(x_train,y_train)
 
 #-------------------------------------------------------------------
 # start learning
 model.fit(x_train, y_train, validation_data=(x_val, y_val),
-            epochs=epoch_count, batch_size=batch_size)
+            epochs=epoch_count, batch_size=batch_size, callbacks=[metrics])
+print("Prediction on validation set:")
+prediction = model.predict(x_val, batch_size, 1)
+np.set_printoptions(threshold=np.inf)
+print(np.column_stack((y_val, np.round(prediction))))
 

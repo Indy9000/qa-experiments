@@ -5,7 +5,7 @@ import sys
 import numpy as np
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.utils import to_categorical
+#from keras.utils import to_categorical
 from keras.layers import Dense, Input, Flatten, Dropout
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 from keras.models import Model
@@ -20,11 +20,22 @@ MAX_NB_WORDS = 20000
 EMBEDDING_DIM = 100
 VALIDATION_SPLIT = 0.2
 
+# command line arguments
+conv1d_filter_count = int(sys.argv[1])
+conv1d_filter_kernel_size = int(sys.argv[2])
+max_pooling_window_size = int(sys.argv[3])
+#dense_units = 15
+dropout_rate = float(sys.argv[4])
+batch_size = int(sys.argv[5])
+epoch_count = int(sys.argv[6])
+print('filter-count = ',conv1d_filter_count,'kernel-size=',conv1d_filter_kernel_size,
+        'pooling-window=',max_pooling_window_size,'dropout=',dropout_rate,
+        'batch-size=',batch_size,'epoch-count=',epoch_count)
+# ----------------------
 
 # prepare text samples and their labels
 print('Processing text dataset')
 
-#----------------------
 texts = [] # list of text samples
 labels = [] # list of label ids
 labels_index = {} # dictionary mapping label name to numeric id
@@ -33,6 +44,7 @@ def load_dataset(filename):
     with open(WANG_DATA_DIR + filename, 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         next(reader, None) #skip header (question,label,answer)
+        count = 0
         for row in reader:
             qa = row[0]+" "+ row[2] #append question and answer
             label = row[1]
@@ -42,8 +54,11 @@ def load_dataset(filename):
                 label_id = labels_index[label]
             else:
                 label_id = len(labels_index)
-            labels_index[label] = label_id 
+                labels_index[label] = label_id 
             labels.append(label_id)
+            count +=1
+            if count == 10:
+                break
 
     print('Found %s samples' % len(texts))
 
@@ -53,9 +68,6 @@ load_dataset('train.csv')
 tokenizer = Tokenizer(num_words=MAX_NB_WORDS)
 tokenizer.fit_on_texts(texts)
 sequences = tokenizer.texts_to_sequences(texts)
-
-print("Seq=",sequences)
-exit()
 
 ###
 max_s_len = -1
@@ -71,15 +83,20 @@ print('Found %s unique tokens' % len(word_index))
 
 data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
 
-labels = to_categorical(np.asarray(labels))
+#labels = to_categorical(np.asarray(labels))
+labels = np.asarray(labels)
 print('Shape of data tensor:', data.shape)
 print('Shape of label tensor:', labels.shape)
 
+print('Before shuffled Labels::::: ', labels)
 # split the data into a training set and a validation set
 indices = np.arange(data.shape[0])
 np.random.shuffle(indices)
+print('Shuffled indices:::: ',indices)
 data = data[indices]
 labels = labels[indices]
+print('After shuffled Labels::::: ', labels)
+
 nb_validation_samples = int(VALIDATION_SPLIT * data.shape[0])
 
 x_train = data[:-nb_validation_samples]
@@ -90,13 +107,6 @@ print('Shape of training samples', x_train.shape)
 print('Shape of training labels', y_train.shape)
 print('Shape of validation samples', x_val.shape)
 print('Shape of validation labels', y_val.shape)
-
-###################################################################
-# Save vocabulary
-#with open(WANG_DATA_DIR + 'vocabulary.txt', 'w') as voc:
-#   for word,index in word_index.items():
-#       voc.write(word+'\n')
-###################################################################
 
 #-----------------------------------------------------------------
 # first, build index mapping words in the embeddings set
@@ -136,18 +146,13 @@ embedding_layer = Embedding(len(word_index) + 1,
                             trainable=False)
 
 #-------------------------------------------------------------------
-# command line arguments
-conv1d_filter_count = int(sys.argv[1])
-conv1d_filter_kernel_size = int(sys.argv[2])
-max_pooling_window_size = int(sys.argv[3])
-#dense_units = 15
-dropout_rate = float(sys.argv[4])
-batch_size = int(sys.argv[5])
-epoch_count = int(sys.argv[6])
-print('filter-count = ',conv1d_filter_count,'kernel-size=',          conv1d_filter_kernel_size,
-    'pooling-window=',max_pooling_window_size,'dropout=',dropout_rate,
-    'batch-size=',batch_size,'epoch-count=',epoch_count)
-#-------------------------------------------------------------------
+
+#conv1d_filter_count = sys.argv[1]
+#conv1d_filter_kernel_size = sys.argv[2]
+#max_pooling_window_size = sys.argv[3]
+#dropout_rate = sys.argv[4]
+#batch_size = sys.argv[5]
+#epoch_count = sys.argv[6]
 
 # build model
 print('len(labels)',len(labels))
@@ -168,13 +173,15 @@ x = Dropout(dropout_rate)(x)
 #x = Dense(5, activation='relu')(x)
 #print('shape dense = ',x.shape)
 
-preds = Dense(len(labels_index), activation='softmax')(x)
+#preds = Dense(len(labels_index), activation='softmax')(x)
+preds = Dense(1, activation='softmax')(x)
 print('shape dense = ',preds.shape)
 model = Model(sequence_input, preds)
-model.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['acc'])
+model.compile(loss='binary_crossentropy', optimizer='adam', 
+                metrics=['binary_accuracy'])
 
 #-------------------------------------------------------------------
 # start learning
 model.fit(x_train, y_train, validation_data=(x_val, y_val),
             epochs=epoch_count, batch_size=batch_size)
-
+	
