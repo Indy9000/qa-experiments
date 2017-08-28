@@ -1,0 +1,1000 @@
+Excuting agent 0000-0000
+Excuting agent 0000-0001
+Excuting agent 0000-0003
+Excuting agent 0000-0002
+Excuting agent 0000-0005
+Excuting agent 0000-0004
+Excuting agent 0000-0006
+Excuting agent 0000-0007
+Excuting agent 0000-0008
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 0 2 Fitness= 0.382000047346 ofp= 0.9954399999999999 tr_loss=0.3127, tr_acc=0.8922, va_loss=0.3248, va_acc=0.8965, va_map=0.382000047346, te_map=0.514944953375
+Excuting agent 0000-0009
+Using TensorFlow backend.
+Generation 0 5 Fitness= 0.436018684749 ofp= 0.99997 tr_loss=0.2806, tr_acc=0.8954, va_loss=0.3389, va_acc=0.8842, va_map=0.436018684749, te_map=0.560498403748
+Excuting agent 0000-0010
+Using TensorFlow backend.
+Generation 0 6 Fitness= 0.446204562694 ofp= 0.4788199999999977 tr_loss=0.1823, tr_acc=0.9326, va_loss=0.3963, va_acc=0.8583, va_map=0.446204562694, te_map=0.576143146107
+Excuting agent 0000-0011
+Using TensorFlow backend.
+Generation 0 1 Fitness= 0.416584461012 ofp= 0.0 tr_loss=0.1987, tr_acc=0.9265, va_loss=0.3908, va_acc=0.852, va_map=0.416584461012, te_map=0.560169185048
+Excuting agent 0000-0012
+Using TensorFlow backend.
+Generation 0 4 Fitness= 0.364392788359 ofp= 1.0 tr_loss=0.3162, tr_acc=0.8973, va_loss=0.3797, va_acc=0.8742, va_map=0.364392788359, te_map=0.507290493712
+Excuting agent 0000-0013
+Using TensorFlow backend.
+Generation 0 8 Fitness= 0.273540211189 ofp= 1.0 tr_loss=0.3468, tr_acc=0.8891, va_loss=0.3284, va_acc=0.9004, va_map=0.273540211189, te_map=0.499709488552
+Excuting agent 0000-0014
+Using TensorFlow backend.
+Generation 0 0 Fitness= 0.417400753437 ofp= 0.3411400000000016 tr_loss=0.2308, tr_acc=0.9133, va_loss=0.3668, va_acc=0.8694, va_map=0.417400753437, te_map=0.578310680547
+Excuting agent 0000-0015
+Using TensorFlow backend.
+Generation 0 7 Fitness= 0.456080341008 ofp= 0.9832800000000018 tr_loss=0.1937, tr_acc=0.9228, va_loss=0.4017, va_acc=0.8774, va_map=0.456080341008, te_map=0.586742073976
+Generation 0 10 Fitness= 0.468673215602 ofp= 0.925480000000001 tr_loss=0.1943, tr_acc=0.9195, va_loss=0.4252, va_acc=0.8798, va_map=0.468673215602, te_map=0.58933061295
+Generation 0 9 Fitness= 0.48154499931 ofp= 0.5088899999999973 tr_loss=0.1648, tr_acc=0.9281, va_loss=0.4599, va_acc=0.896, va_map=0.48154499931, te_map=0.554244942418
+Generation 0 14 Fitness= 0.404136779297 ofp= 0.9978499999999998 tr_loss=0.2887, tr_acc=0.8939, va_loss=0.3357, va_acc=0.8948, va_map=0.404136779297, te_map=0.546418919736
+Generation 0 13 Fitness= 0.429155161413 ofp= 0.7840000000000011 tr_loss=0.2242, tr_acc=0.9125, va_loss=0.325, va_acc=0.895, va_map=0.429155161413, te_map=0.606815464073
+Generation 0 3 Fitness= 0.463095272633 ofp= 0.9647200000000005 tr_loss=0.1984, tr_acc=0.8974, va_loss=0.3843, va_acc=0.893, va_map=0.463095272633, te_map=0.591929323385
+Generation 0 12 Fitness= 0.315165809906 ofp= 1.0 tr_loss=0.3442, tr_acc=0.8909, va_loss=0.334, va_acc=0.8953, va_map=0.315165809906, te_map=0.5101448009739999
+Generation 0 11 Fitness= 0.393089574381 ofp= 0.9996900000000001 tr_loss=0.2916, tr_acc=0.8934, va_loss=0.3304, va_acc=0.8923, va_map=0.393089574381, te_map=0.522483044094
+Generation 0 15 Fitness= 0.448992651996 ofp= 0.9983 tr_loss=0.1697, tr_acc=0.9146, va_loss=0.3293, va_acc=0.8986, va_map=0.448992651996, te_map=0.565850774929
+[2017-08-28T00:28:06+00:00]Best fitness =0.4484546777063471 output11-0000-0007.txt (filterCount: 35, kernelSize: 2, poolingWindow: 13, denseSize1: 48, denseSize2: 26, dropout1: 0.3948227119006353, dropout2: 0.06852634603782737, batchSize: 13, epochCount: 35)
+shuffled indices=@[13, 10, 9, 3, 0, 15, 8, 4, 5, 2, 11, 7, 12, 14, 6, 1]
+Excuting agent 0001-0000
+Excuting agent 0001-0001
+Excuting agent 0001-0002
+Excuting agent 0001-0003
+Excuting agent 0001-0004
+Excuting agent 0001-0005
+Excuting agent 0001-0006
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 1 5 Fitness= 0.393217104309 ofp= 0.9971199999999992 tr_loss=0.2708, tr_acc=0.8984, va_loss=0.3351, va_acc=0.8918, va_map=0.393217104309, te_map=0.572288398537
+Excuting agent 0001-0007
+Using TensorFlow backend.
+Generation 1 4 Fitness= 0.384949468794 ofp= 1.0 tr_loss=0.3225, tr_acc=0.8895, va_loss=0.3147, va_acc=0.8991, va_map=0.384949468794, te_map=0.568644122183
+Excuting agent 0001-0008
+Using TensorFlow backend.
+Generation 1 0 Fitness= 0.438654723035 ofp= 0.9473500000000002 tr_loss=0.235, tr_acc=0.9045, va_loss=0.3461, va_acc=0.8836000000000001, va_map=0.438654723035, te_map=0.597112589235
+Excuting agent 0001-0009
+Using TensorFlow backend.
+Generation 1 1 Fitness= 0.440143578841 ofp= 0.8225199999999994 tr_loss=0.2391, tr_acc=0.9109, va_loss=0.3254, va_acc=0.8904, va_map=0.440143578841, te_map=0.517066526065
+Excuting agent 0001-0010
+Using TensorFlow backend.
+Generation 1 6 Fitness= 0.471339002475 ofp= 0.8454700000000003 tr_loss=0.1857, tr_acc=0.9296, va_loss=0.3826, va_acc=0.8827, va_map=0.471339002475, te_map=0.557727811788
+Excuting agent 0001-0011
+Using TensorFlow backend.
+Generation 1 2 Fitness= 0.462853783429 ofp= 1.0 tr_loss=0.2259, tr_acc=0.8924, va_loss=0.3241, va_acc=0.8894, va_map=0.462853783429, te_map=0.59376702981
+Excuting agent 0001-0012
+Using TensorFlow backend.
+Generation 1 3 Fitness= 0.466260214121 ofp= 0.9952599999999979 tr_loss=0.2419, tr_acc=0.8963, va_loss=0.3895, va_acc=0.8927, va_map=0.466260214121, te_map=0.590264622446
+Excuting agent 0001-0013
+Using TensorFlow backend.
+Generation 1 8 Fitness= 0.297567531354 ofp= 1.0 tr_loss=0.3368, tr_acc=0.8931, va_loss=0.355, va_acc=0.886, va_map=0.297567531354, te_map=0.518992568901
+Excuting agent 0001-0014
+Using TensorFlow backend.
+Generation 1 10 Fitness= 0.495383936397 ofp= 0.8093500000000005 tr_loss=0.1895, tr_acc=0.9212, va_loss=0.4575, va_acc=0.8663999999999999, va_map=0.495383936397, te_map=0.614657773768
+Excuting agent 0001-0015
+Using TensorFlow backend.
+Generation 1 9 Fitness= 0.315701533424 ofp= 1.0 tr_loss=0.3425, tr_acc=0.8905999999999999, va_loss=0.338, va_acc=0.8961, va_map=0.315701533424, te_map=0.49454599286
+Generation 1 11 Fitness= 0.491872154794 ofp= 0.7637800000000008 tr_loss=0.1973, tr_acc=0.9157999999999999, va_loss=0.363, va_acc=0.8984, va_map=0.491872154794, te_map=0.574863883132
+Generation 1 7 Fitness= 0.435241101643 ofp= 0.9171799999999979 tr_loss=0.2092, tr_acc=0.918, va_loss=0.3506, va_acc=0.8935999999999999, va_map=0.435241101643, te_map=0.556683465847
+Generation 1 12 Fitness= 0.425912008652 ofp= 0.9591900000000003 tr_loss=0.2422, tr_acc=0.9045, va_loss=0.3709, va_acc=0.8945, va_map=0.425912008652, te_map=0.602824094667
+Generation 1 13 Fitness= 0.438685857237 ofp= 0.9105600000000004 tr_loss=0.2213, tr_acc=0.9167, va_loss=0.3326, va_acc=0.8741, va_map=0.438685857237, te_map=0.570681205649
+Generation 1 15 Fitness= 0.466288894505 ofp= 1.0 tr_loss=0.2317, tr_acc=0.8914, va_loss=0.3407, va_acc=0.8934, va_map=0.466288894505, te_map=0.585049231861
+Generation 1 14 Fitness= 0.490660398062 ofp= 0.9990399999999998 tr_loss=0.1754, tr_acc=0.9243, va_loss=0.3355, va_acc=0.8746, va_map=0.490660398062, te_map=0.601420956198
+[2017-08-28T00:51:05+00:00]Best fitness =0.4901893640798604 output11-0001-0014.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8105084088151451, dropout2: 0.006400653585607561, batchSize: 56, epochCount: 32)
+shuffled indices=@[4, 10, 11, 0, 15, 7, 12, 9, 13, 1, 8, 5, 14, 6, 2, 3]
+Excuting agent 0002-0001
+Excuting agent 0002-0000
+Excuting agent 0002-0002
+Excuting agent 0002-0003
+Excuting agent 0002-0004
+Excuting agent 0002-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 2 5 Fitness= 0.396201113492 ofp= 0.9987300000000001 tr_loss=0.2769, tr_acc=0.8905999999999999, va_loss=0.3341, va_acc=0.8982, va_map=0.396201113492, te_map=0.585287011023
+Excuting agent 0002-0006
+Using TensorFlow backend.
+Generation 2 4 Fitness= 0.416062230787 ofp= 0.99748 tr_loss=0.2649, tr_acc=0.9009, va_loss=0.3199, va_acc=0.8961, va_map=0.416062230787, te_map=0.581965188705
+Excuting agent 0002-0007
+Using TensorFlow backend.
+Generation 2 0 Fitness= 0.426880413293 ofp= 0.9776399999999995 tr_loss=0.2368, tr_acc=0.9064, va_loss=0.3591, va_acc=0.8741, va_map=0.426880413293, te_map=0.601696356782
+Excuting agent 0002-0008
+Using TensorFlow backend.
+Generation 2 1 Fitness= 0.408525524013 ofp= 0.9615199999999997 tr_loss=0.2361, tr_acc=0.9063, va_loss=0.3757, va_acc=0.8767, va_map=0.408525524013, te_map=0.577891885598
+Excuting agent 0002-0009
+Using TensorFlow backend.
+Generation 2 3 Fitness= 0.453902337675 ofp= 0.9946400000000006 tr_loss=0.2497, tr_acc=0.8911, va_loss=0.408, va_acc=0.904, va_map=0.453902337675, te_map=0.5857988686
+Excuting agent 0002-0010
+Using TensorFlow backend.
+Generation 2 2 Fitness= 0.46817898243 ofp= 0.9896499999999988 tr_loss=0.2252, tr_acc=0.8991, va_loss=0.3853, va_acc=0.8784999999999999, va_map=0.46817898243, te_map=0.569955378058
+Excuting agent 0002-0011
+Using TensorFlow backend.
+Generation 2 9 Fitness= 0.316719421354 ofp= 1.0 tr_loss=0.331, tr_acc=0.8933, va_loss=0.3546, va_acc=0.8861, va_map=0.316719421354, te_map=0.503198209345
+Excuting agent 0002-0012
+Using TensorFlow backend.
+Generation 2 8 Fitness= 0.299060438458 ofp= 1.0 tr_loss=0.3404, tr_acc=0.8895, va_loss=0.3231, va_acc=0.9012, va_map=0.299060438458, te_map=0.518655664511
+Excuting agent 0002-0013
+Using TensorFlow backend.
+Generation 2 6 Fitness= 0.43793588487 ofp= 0.9352000000000009 tr_loss=0.1926, tr_acc=0.9237, va_loss=0.3258, va_acc=0.9024, va_map=0.43793588487, te_map=0.6092074198
+Excuting agent 0002-0014
+Using TensorFlow backend.
+Generation 2 7 Fitness= 0.458091557754 ofp= 0.8939500000000005 tr_loss=0.1877, tr_acc=0.9257, va_loss=0.4032, va_acc=0.8791, va_map=0.458091557754, te_map=0.538065099131
+Excuting agent 0002-0015
+Using TensorFlow backend.
+Generation 2 10 Fitness= 0.46162093783 ofp= 0.0 tr_loss=0.1712, tr_acc=0.9255, va_loss=0.4235, va_acc=0.8963, va_map=0.46162093783, te_map=0.581682560537
+Generation 2 11 Fitness= 0.465802611424 ofp= 0.9688499999999994 tr_loss=0.1984, tr_acc=0.9182, va_loss=0.3944, va_acc=0.8741, va_map=0.465802611424, te_map=0.608195393392
+Generation 2 13 Fitness= 0.423067141666 ofp= 0.9959399999999998 tr_loss=0.2403, tr_acc=0.9016999999999999, va_loss=0.3602, va_acc=0.8822, va_map=0.423067141666, te_map=0.5589768333190001
+Generation 2 12 Fitness= 0.398147316833 ofp= 0.8873000000000014 tr_loss=0.2456, tr_acc=0.9013, va_loss=0.3452, va_acc=0.8928, va_map=0.398147316833, te_map=0.570442141884
+Generation 2 15 Fitness= 0.458429261579 ofp= 1.0 tr_loss=0.2454, tr_acc=0.8959, va_loss=0.3448, va_acc=0.8952, va_map=0.458429261579, te_map=0.606932850613
+Generation 2 14 Fitness= 0.473827724134 ofp= 0.9953199999999996 tr_loss=0.195, tr_acc=0.9096, va_loss=0.3389, va_acc=0.8915, va_map=0.473827724134, te_map=0.594967285454
+[2017-08-28T01:15:42+00:00]Best fitness =0.4716102103850527 output11-0002-0014.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8105084088151451, dropout2: 0.006400653585607561, batchSize: 56, epochCount: 32)
+shuffled indices=@[7, 9, 2, 4, 3, 12, 11, 1, 8, 14, 6, 15, 5, 0, 10, 13]
+Excuting agent 0003-0000
+Excuting agent 0003-0001
+Excuting agent 0003-0002
+Excuting agent 0003-0004
+Excuting agent 0003-0003
+Excuting agent 0003-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 3 5 Fitness= 0.420540851839 ofp= 1.0 tr_loss=0.2886, tr_acc=0.8909, va_loss=0.3302, va_acc=0.8954, va_map=0.420540851839, te_map=0.56043573887
+Excuting agent 0003-0006
+Using TensorFlow backend.
+Generation 3 4 Fitness= 0.446109695541 ofp= 0.9958799999999993 tr_loss=0.2783, tr_acc=0.8937, va_loss=0.3217, va_acc=0.8915999999999999, va_map=0.446109695541, te_map=0.591320040417
+Excuting agent 0003-0007
+Using TensorFlow backend.
+Generation 3 0 Fitness= 0.428807346005 ofp= 0.8029000000000006 tr_loss=0.2316, tr_acc=0.9055, va_loss=0.3256, va_acc=0.8948, va_map=0.428807346005, te_map=0.59194202005
+Excuting agent 0003-0008
+Using TensorFlow backend.
+Generation 3 1 Fitness= 0.399647536725 ofp= 0.8976599999999997 tr_loss=0.2152, tr_acc=0.9167, va_loss=0.3855, va_acc=0.8671, va_map=0.399647536725, te_map=0.562650117967
+Excuting agent 0003-0009
+Using TensorFlow backend.
+Generation 3 3 Fitness= 0.469716685539 ofp= 1.0 tr_loss=0.2468, tr_acc=0.8951, va_loss=0.4069, va_acc=0.8917, va_map=0.469716685539, te_map=0.598369879329
+Excuting agent 0003-0010
+Using TensorFlow backend.
+Generation 3 2 Fitness= 0.4664748021 ofp= 1.0 tr_loss=0.2392, tr_acc=0.8919, va_loss=0.3716, va_acc=0.8924, va_map=0.4664748021, te_map=0.591860369673
+Excuting agent 0003-0011
+Using TensorFlow backend.
+Generation 3 8 Fitness= 0.351914981734 ofp= 1.0 tr_loss=0.3359, tr_acc=0.8917, va_loss=0.338, va_acc=0.8921, va_map=0.351914981734, te_map=0.5447003717909999
+Excuting agent 0003-0012
+Using TensorFlow backend.
+Generation 3 6 Fitness= 0.436133361587 ofp= 0.2242800000000053 tr_loss=0.1937, tr_acc=0.9256, va_loss=0.4801, va_acc=0.8713, va_map=0.436133361587, te_map=0.591573925013
+Excuting agent 0003-0013
+Using TensorFlow backend.
+Generation 3 7 Fitness= 0.443442482095 ofp= 0.9676799999999991 tr_loss=0.2025, tr_acc=0.9228, va_loss=0.3454, va_acc=0.8929, va_map=0.443442482095, te_map=0.591986622607
+Excuting agent 0003-0014
+Using TensorFlow backend.
+Generation 3 9 Fitness= 0.349662282631 ofp= 1.0 tr_loss=0.3373, tr_acc=0.891, va_loss=0.3371, va_acc=0.8947000000000001, va_map=0.349662282631, te_map=0.483944532757
+Excuting agent 0003-0015
+Using TensorFlow backend.
+Generation 3 10 Fitness= 0.47013884035 ofp= 0.9806399999999994 tr_loss=0.2195, tr_acc=0.9067, va_loss=0.3833, va_acc=0.885, va_map=0.47013884035, te_map=0.600437285806
+Generation 3 11 Fitness= 0.45993021643 ofp= 0.9082400000000004 tr_loss=0.2043, tr_acc=0.9143, va_loss=0.3206, va_acc=0.9012, va_map=0.45993021643, te_map=0.574746034088
+Generation 3 12 Fitness= 0.42935443254 ofp= 0.9916400000000001 tr_loss=0.2318, tr_acc=0.9077, va_loss=0.3645, va_acc=0.8828, va_map=0.42935443254, te_map=0.550176338158
+Generation 3 13 Fitness= 0.455577138054 ofp= 0.9843600000000001 tr_loss=0.2379, tr_acc=0.9082, va_loss=0.3409, va_acc=0.8802, va_map=0.455577138054, te_map=0.589978918322
+Generation 3 14 Fitness= 0.480643455584 ofp= 0.9899900000000003 tr_loss=0.2081, tr_acc=0.903, va_loss=0.3468, va_acc=0.884, va_map=0.480643455584, te_map=0.570259149947
+Generation 3 15 Fitness= 0.467877656672 ofp= 0.9972099999999999 tr_loss=0.2072, tr_acc=0.9169, va_loss=0.315, va_acc=0.8903, va_map=0.467877656672, te_map=0.590740257019
+[2017-08-28T01:40:30+00:00]Best fitness =0.4758322145936043 output11-0003-0014.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8105084088151451, dropout2: 0.006400653585607561, batchSize: 56, epochCount: 32)
+shuffled indices=@[0, 6, 1, 2, 9, 8, 13, 10, 3, 7, 12, 4, 14, 5, 11, 15]
+Excuting agent 0004-0000
+Excuting agent 0004-0001
+Excuting agent 0004-0002
+Excuting agent 0004-0003
+Excuting agent 0004-0004
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 4 4 Fitness= 0.420270604256 ofp= 0.9898 tr_loss=0.2784, tr_acc=0.8985, va_loss=0.306, va_acc=0.9039, va_map=0.420270604256, te_map=0.558263587134
+Excuting agent 0004-0005
+Using TensorFlow backend.
+Generation 4 0 Fitness= 0.444648762885 ofp= 0.9815999999999998 tr_loss=0.2298, tr_acc=0.9115, va_loss=0.347, va_acc=0.8798, va_map=0.444648762885, te_map=0.581528679701
+Excuting agent 0004-0006
+Excuting agent 0004-0007
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 4 1 Fitness= 0.45175803547 ofp= 0.9959999999999999 tr_loss=0.2151, tr_acc=0.9183, va_loss=0.3764, va_acc=0.8689, va_map=0.45175803547, te_map=0.563475314603
+Excuting agent 0004-0008
+Using TensorFlow backend.
+Generation 4 5 Fitness= 0.454210491889 ofp= 1.0 tr_loss=0.2799, tr_acc=0.8929, va_loss=0.3501, va_acc=0.8856000000000001, va_map=0.454210491889, te_map=0.568633279519
+Excuting agent 0004-0009
+Using TensorFlow backend.
+Generation 4 2 Fitness= 0.428006522401 ofp= 0.9913 tr_loss=0.207, tr_acc=0.9149, va_loss=0.2931, va_acc=0.8946, va_map=0.428006522401, te_map=0.596942602794
+Excuting agent 0004-0010
+Using TensorFlow backend.
+Generation 4 9 Fitness= 0.308394802851 ofp= 1.0 tr_loss=0.3424, tr_acc=0.8904, va_loss=0.3312, va_acc=0.897, va_map=0.308394802851, te_map=0.50481409654
+Excuting agent 0004-0011
+Using TensorFlow backend.
+Generation 4 6 Fitness= 0.378348396056 ofp= 0.7389200000000019 tr_loss=0.242, tr_acc=0.9114, va_loss=0.3902, va_acc=0.8794, va_map=0.378348396056, te_map=0.512517050958
+Excuting agent 0004-0012
+Using TensorFlow backend.
+Generation 4 8 Fitness= 0.311866650341 ofp= 1.0 tr_loss=0.3415, tr_acc=0.8903, va_loss=0.3337, va_acc=0.8968, va_map=0.311866650341, te_map=0.513255191293
+Excuting agent 0004-0013
+Using TensorFlow backend.
+Generation 4 7 Fitness= 0.433608365662 ofp= 0.9629499999999998 tr_loss=0.2012, tr_acc=0.9194, va_loss=0.3189, va_acc=0.897, va_map=0.433608365662, te_map=0.589444471742
+Excuting agent 0004-0014
+Using TensorFlow backend.
+Generation 4 3 Fitness= 0.309925554832 ofp= 1.0 tr_loss=0.3409, tr_acc=0.893, va_loss=0.3522, va_acc=0.8873, va_map=0.309925554832, te_map=0.49418898669
+Excuting agent 0004-0015
+Using TensorFlow backend.
+Generation 4 10 Fitness= 0.457082127231 ofp= 0.99494 tr_loss=0.1872, tr_acc=0.9179, va_loss=0.4031, va_acc=0.8869, va_map=0.457082127231, te_map=0.603582524756
+Generation 4 11 Fitness= 0.486555511391 ofp= 0.8519900000000001 tr_loss=0.1975, tr_acc=0.9136, va_loss=0.4388, va_acc=0.8731, va_map=0.486555511391, te_map=0.575964341081
+Generation 4 12 Fitness= 0.433776944217 ofp= 0.8289200000000002 tr_loss=0.2346, tr_acc=0.898, va_loss=0.3874, va_acc=0.8716, va_map=0.433776944217, te_map=0.583048682746
+Generation 4 13 Fitness= 0.431037177752 ofp= 0.9935500000000002 tr_loss=0.2472, tr_acc=0.8989, va_loss=0.3598, va_acc=0.8847, va_map=0.431037177752, te_map=0.564463228573
+Generation 4 14 Fitness= 0.46109608626 ofp= 1.0 tr_loss=0.2339, tr_acc=0.8915999999999999, va_loss=0.3956, va_acc=0.8924, va_map=0.46109608626, te_map=0.5952358438699999
+Generation 4 15 Fitness= 0.483823475431 ofp= 1.0 tr_loss=0.2527, tr_acc=0.8943, va_loss=0.3472, va_acc=0.8812, va_map=0.483823475431, te_map=0.578608197663
+[2017-08-28T02:07:15+00:00]Best fitness =0.483823475431 output11-0004-0015.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8150659907839493, dropout2: 0.008461965942713067, batchSize: 56, epochCount: 32)
+shuffled indices=@[6, 8, 2, 4, 3, 12, 15, 1, 10, 0, 9, 7, 11, 14, 5, 13]
+Excuting agent 0005-0000
+Excuting agent 0005-0001
+Excuting agent 0005-0002
+Excuting agent 0005-0003
+Excuting agent 0005-0004
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 5 0 Fitness= 0.44362256021 ofp= 0.2479000000000041 tr_loss=0.2453, tr_acc=0.9064, va_loss=0.3437, va_acc=0.8824, va_map=0.44362256021, te_map=0.577288209711
+Excuting agent 0005-0005
+Using TensorFlow backend.
+Generation 5 4 Fitness= 0.458973624088 ofp= 0.99936 tr_loss=0.2677, tr_acc=0.8959, va_loss=0.3217, va_acc=0.8961, va_map=0.458973624088, te_map=0.5702461685869999
+Excuting agent 0005-0006
+Using TensorFlow backend.
+Generation 5 1 Fitness= 0.430256833032 ofp= 0.9809599999999995 tr_loss=0.2241, tr_acc=0.9106, va_loss=0.3698, va_acc=0.882, va_map=0.430256833032, te_map=0.590204857545
+Excuting agent 0005-0007
+Using TensorFlow backend.
+Generation 5 3 Fitness= 0.465565782084 ofp= 0.9994400000000001 tr_loss=0.2269, tr_acc=0.9046, va_loss=0.3337, va_acc=0.8972, va_map=0.465565782084, te_map=0.586527670496
+Excuting agent 0005-0008
+Using TensorFlow backend.
+Generation 5 5 Fitness= 0.416864723011 ofp= 0.9986200000000002 tr_loss=0.2827, tr_acc=0.8928, va_loss=0.3363, va_acc=0.8881, va_map=0.416864723011, te_map=0.549757496866
+Excuting agent 0005-0009
+Using TensorFlow backend.
+Generation 5 2 Fitness= 0.442553590673 ofp= 1.0 tr_loss=0.2475, tr_acc=0.8924, va_loss=0.4039, va_acc=0.8924, va_map=0.442553590673, te_map=0.620090580868
+Excuting agent 0005-0010
+Using TensorFlow backend.
+Generation 5 8 Fitness= 0.307417737959 ofp= 1.0 tr_loss=0.3471, tr_acc=0.8902, va_loss=0.3349, va_acc=0.8973, va_map=0.307417737959, te_map=0.511197710871
+Excuting agent 0005-0011
+Using TensorFlow backend.
+Generation 5 6 Fitness= 0.462106611848 ofp= 0.43084 tr_loss=0.1964, tr_acc=0.9245, va_loss=0.3315, va_acc=0.8791, va_map=0.462106611848, te_map=0.599864644779
+Excuting agent 0005-0012
+Using TensorFlow backend.
+Generation 5 7 Fitness= 0.489967073113 ofp= 0.9598800000000001 tr_loss=0.1986, tr_acc=0.9224, va_loss=0.363, va_acc=0.8848, va_map=0.489967073113, te_map=0.592576237563
+Excuting agent 0005-0013
+Excuting agent 0005-0014
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 5 10 Fitness= 0.491631578844 ofp= 0.8767000000000015 tr_loss=0.1917, tr_acc=0.9155, va_loss=0.4326, va_acc=0.8604000000000001, va_map=0.491631578844, te_map=0.596521315352
+Excuting agent 0005-0015
+Using TensorFlow backend.
+Generation 5 9 Fitness= 0.332095472692 ofp= 1.0 tr_loss=0.3425, tr_acc=0.8875999999999999, va_loss=0.312, va_acc=0.9072, va_map=0.332095472692, te_map=0.5182962620180001
+Generation 5 12 Fitness= 0.406753470687 ofp= 0.6948599999999991 tr_loss=0.2417, tr_acc=0.9063, va_loss=0.3383, va_acc=0.8851, va_map=0.406753470687, te_map=0.599455294755
+Generation 5 11 Fitness= 0.437824090088 ofp= 1.0 tr_loss=0.2125, tr_acc=0.9132, va_loss=0.33, va_acc=0.9026, va_map=0.437824090088, te_map=0.59178937969
+Generation 5 14 Fitness= 0.452931011226 ofp= 1.0 tr_loss=0.2472, tr_acc=0.8934, va_loss=0.3278, va_acc=0.8901, va_map=0.452931011226, te_map=0.603534082906
+Generation 5 13 Fitness= 0.467814882526 ofp= 0.9373799999999997 tr_loss=0.2243, tr_acc=0.9093, va_loss=0.3632, va_acc=0.8754999999999999, va_map=0.467814882526, te_map=0.580255949084
+Generation 5 15 Fitness= 0.455417417929 ofp= 0.9997799999999999 tr_loss=0.213, tr_acc=0.9038, va_loss=0.3879, va_acc=0.8986, va_map=0.455417417929, te_map=0.601602736005
+[2017-08-28T02:33:57+00:00]Best fitness =0.4703095941397065 output11-0005-0007.txt (filterCount: 35, kernelSize: 2, poolingWindow: 13, denseSize1: 48, denseSize2: 26, dropout1: 0.3966371063714511, dropout2: 0.07060300885505352, batchSize: 13, epochCount: 35)
+shuffled indices=@[8, 12, 13, 4, 14, 6, 5, 2, 7, 1, 9, 11, 15, 10, 3, 0]
+Excuting agent 0006-0000
+Excuting agent 0006-0001
+Excuting agent 0006-0002
+Excuting agent 0006-0003
+Excuting agent 0006-0004
+Excuting agent 0006-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 6 5 Fitness= 0.416402169161 ofp= 0.9992 tr_loss=0.2709, tr_acc=0.8964, va_loss=0.3208, va_acc=0.8941, va_map=0.416402169161, te_map=0.573622777705
+Excuting agent 0006-0006
+Using TensorFlow backend.
+Generation 6 4 Fitness= 0.436462893092 ofp= 0.9846000000000005 tr_loss=0.2728, tr_acc=0.8981, va_loss=0.3009, va_acc=0.8997000000000001, va_map=0.436462893092, te_map=0.58048132087
+Excuting agent 0006-0007
+Using TensorFlow backend.
+Generation 6 1 Fitness= 0.446688385283 ofp= 0.7335000000000003 tr_loss=0.2402, tr_acc=0.9053, va_loss=0.3511, va_acc=0.8707, va_map=0.446688385283, te_map=0.584255475787
+Excuting agent 0006-0008
+Using TensorFlow backend.
+Generation 6 0 Fitness= 0.43890782686 ofp= 0.9984399999999998 tr_loss=0.2188, tr_acc=0.9149, va_loss=0.3753, va_acc=0.8756, va_map=0.43890782686, te_map=0.589247370078
+Excuting agent 0006-0009
+Using TensorFlow backend.
+Generation 6 2 Fitness= 0.467901863537 ofp= 1.0 tr_loss=0.2392, tr_acc=0.8882, va_loss=0.2984, va_acc=0.9081, va_map=0.467901863537, te_map=0.577688212256
+Excuting agent 0006-0010
+Using TensorFlow backend.
+Generation 6 8 Fitness= 0.356297922121 ofp= 1.0 tr_loss=0.3281, tr_acc=0.8931, va_loss=0.3553, va_acc=0.8858, va_map=0.356297922121, te_map=0.542107469327
+Excuting agent 0006-0011
+Using TensorFlow backend.
+Generation 6 6 Fitness= 0.413226367075 ofp= 0.9757599999999993 tr_loss=0.2549, tr_acc=0.9069, va_loss=0.332, va_acc=0.903, va_map=0.413226367075, te_map=0.554402652887
+Excuting agent 0006-0012
+Using TensorFlow backend.
+Generation 6 7 Fitness= 0.445531007413 ofp= 0.9487599999999994 tr_loss=0.2084, tr_acc=0.9202, va_loss=0.3653, va_acc=0.8925999999999999, va_map=0.445531007413, te_map=0.604700935001
+Excuting agent 0006-0013
+Using TensorFlow backend.
+Generation 6 9 Fitness= 0.288379058817 ofp= 1.0 tr_loss=0.3403, tr_acc=0.8912, va_loss=0.3432, va_acc=0.8939, va_map=0.288379058817, te_map=0.491144983934
+Excuting agent 0006-0014
+Using TensorFlow backend.
+Generation 6 3 Fitness= 0.458680769243 ofp= 1.0 tr_loss=0.2243, tr_acc=0.8944, va_loss=0.321, va_acc=0.8964, va_map=0.458680769243, te_map=0.605154514544
+Excuting agent 0006-0015
+Using TensorFlow backend.
+Generation 6 11 Fitness= 0.468443935792 ofp= 0.9979699999999999 tr_loss=0.2361, tr_acc=0.9011, va_loss=0.3363, va_acc=0.8893, va_map=0.468443935792, te_map=0.599208753702
+Generation 6 10 Fitness= 0.428607285121 ofp= 0.9935600000000007 tr_loss=0.2125, tr_acc=0.9107, va_loss=0.3999, va_acc=0.8863, va_map=0.428607285121, te_map=0.590610485478
+Generation 6 12 Fitness= 0.426220955474 ofp= 0.8419000000000009 tr_loss=0.2333, tr_acc=0.9087, va_loss=0.364, va_acc=0.8799, va_map=0.426220955474, te_map=0.580270255031
+Generation 6 13 Fitness= 0.423916371055 ofp= 0.9770000000000005 tr_loss=0.229, tr_acc=0.9075, va_loss=0.3878, va_acc=0.8794, va_map=0.423916371055, te_map=0.587702040217
+Generation 6 14 Fitness= 0.430261940782 ofp= 1.0 tr_loss=0.2459, tr_acc=0.8915, va_loss=0.3569, va_acc=0.8946, va_map=0.430261940782, te_map=0.585176943057
+Generation 6 15 Fitness= 0.461844460899 ofp= 0.8712 tr_loss=0.1933, tr_acc=0.8927, va_loss=0.3388, va_acc=0.8836000000000001, va_map=0.461844460899, te_map=0.5853141828490001
+[2017-08-28T02:59:49+00:00]Best fitness =0.467901863537 output11-0006-0002.txt (filterCount: 45, kernelSize: 5, poolingWindow: 5, denseSize1: 19, denseSize2: 30, dropout1: 0.7653264211518164, dropout2: 0.06503543629116645, batchSize: 11, epochCount: 44)
+shuffled indices=@[2, 15, 5, 0, 9, 6, 7, 8, 10, 14, 12, 13, 4, 1, 3, 11]
+Excuting agent 0007-0000
+Excuting agent 0007-0001
+Excuting agent 0007-0002
+Excuting agent 0007-0003
+Excuting agent 0007-0004
+Excuting agent 0007-0005
+Excuting agent 0007-0006
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 7 5 Fitness= 0.43368463204 ofp= 0.99992 tr_loss=0.2819, tr_acc=0.8946, va_loss=0.3205, va_acc=0.896, va_map=0.43368463204, te_map=0.586700789599
+Excuting agent 0007-0007
+Using TensorFlow backend.
+Generation 7 4 Fitness= 0.447518206467 ofp= 0.9987399999999994 tr_loss=0.2766, tr_acc=0.8907, va_loss=0.3248, va_acc=0.9026999999999999, va_map=0.447518206467, te_map=0.569840761819
+Excuting agent 0007-0008
+Using TensorFlow backend.
+Generation 7 0 Fitness= 0.400663657252 ofp= 0.9966100000000003 tr_loss=0.2422, tr_acc=0.904, va_loss=0.3695, va_acc=0.8899, va_map=0.400663657252, te_map=0.5644149107050001
+Excuting agent 0007-0009
+Using TensorFlow backend.
+Generation 7 1 Fitness= 0.434817467919 ofp= 0.8304599999999996 tr_loss=0.249, tr_acc=0.9084, va_loss=0.3575, va_acc=0.8844, va_map=0.434817467919, te_map=0.568659261991
+Excuting agent 0007-0010
+Using TensorFlow backend.
+Generation 7 6 Fitness= 0.386268751628 ofp= 0.9316 tr_loss=0.2417, tr_acc=0.9093, va_loss=0.3438, va_acc=0.8908, va_map=0.386268751628, te_map=0.55798673809
+Excuting agent 0007-0011
+Using TensorFlow backend.
+Generation 7 8 Fitness= 0.299734696374 ofp= 1.0 tr_loss=0.3392, tr_acc=0.8949, va_loss=0.3683, va_acc=0.8798, va_map=0.299734696374, te_map=0.511054090479
+Excuting agent 0007-0012
+Using TensorFlow backend.
+Generation 7 9 Fitness= 0.324890369411 ofp= 1.0 tr_loss=0.334, tr_acc=0.8921, va_loss=0.3494, va_acc=0.8901, va_map=0.324890369411, te_map=0.491540982286
+Excuting agent 0007-0013
+Using TensorFlow backend.
+Generation 7 3 Fitness= 0.440834904919 ofp= 0.9605799999999995 tr_loss=0.2216, tr_acc=0.9025, va_loss=0.3077, va_acc=0.9079, va_map=0.440834904919, te_map=0.591258433573
+Excuting agent 0007-0014
+Using TensorFlow backend.
+Generation 7 2 Fitness= 0.449177815523 ofp= 0.9975500000000003 tr_loss=0.2455, tr_acc=0.8952, va_loss=0.375, va_acc=0.8842, va_map=0.449177815523, te_map=0.601431662696
+Excuting agent 0007-0015
+Using TensorFlow backend.
+Generation 7 7 Fitness= 0.417980674206 ofp= 0.996549999999999 tr_loss=0.209, tr_acc=0.9208, va_loss=0.3448, va_acc=0.8863, va_map=0.417980674206, te_map=0.568522369213
+Generation 7 10 Fitness= 0.444995193532 ofp= 0.9830799999999987 tr_loss=0.2221, tr_acc=0.9046999999999999, va_loss=0.3771, va_acc=0.8895, va_map=0.444995193532, te_map=0.574962549626
+Generation 7 11 Fitness= 0.441640991874 ofp= 0.9916399999999996 tr_loss=0.2193, tr_acc=0.9103, va_loss=0.3365, va_acc=0.8849, va_map=0.441640991874, te_map=0.569559474255
+Generation 7 12 Fitness= 0.445322923505 ofp= 0.9508599999999992 tr_loss=0.2443, tr_acc=0.8957000000000001, va_loss=0.3453, va_acc=0.8982, va_map=0.445322923505, te_map=0.571617079437
+Generation 7 13 Fitness= 0.409708920362 ofp= 0.9730000000000005 tr_loss=0.2258, tr_acc=0.9102, va_loss=0.4073, va_acc=0.8594000000000001, va_map=0.409708920362, te_map=0.557082789618
+Generation 7 14 Fitness= 0.439375072378 ofp= 1.0 tr_loss=0.2466, tr_acc=0.8927, va_loss=0.3535, va_acc=0.8913, va_map=0.439375072378, te_map=0.607791221239
+Generation 7 15 Fitness= 0.406951167385 ofp= 1.0 tr_loss=0.2469, tr_acc=0.8888, va_loss=0.3987, va_acc=0.9041, va_map=0.406951167385, te_map=0.617595370762
+[2017-08-28T03:21:25+00:00]Best fitness =0.4480773298749688 output11-0007-0002.txt (filterCount: 45, kernelSize: 5, poolingWindow: 5, denseSize1: 19, denseSize2: 30, dropout1: 0.7653264211518164, dropout2: 0.06503543629116645, batchSize: 11, epochCount: 44)
+shuffled indices=@[10, 15, 9, 1, 4, 11, 7, 5, 8, 12, 14, 0, 2, 13, 6, 3]
+Excuting agent 0008-0000
+Excuting agent 0008-0001
+Excuting agent 0008-0002
+Excuting agent 0008-0003
+Excuting agent 0008-0004
+Excuting agent 0008-0005
+Excuting agent 0008-0006
+Excuting agent 0008-0007
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 8 4 Fitness= 0.417105318729 ofp= 0.9950999999999998 tr_loss=0.2764, tr_acc=0.8925999999999999, va_loss=0.3249, va_acc=0.8999, va_map=0.417105318729, te_map=0.576664227465
+Excuting agent 0008-0008
+Using TensorFlow backend.
+Generation 8 5 Fitness= 0.450150091417 ofp= 0.9937000000000001 tr_loss=0.2518, tr_acc=0.9067, va_loss=0.3546, va_acc=0.8804999999999999, va_map=0.450150091417, te_map=0.569383828267
+Excuting agent 0008-0009
+Using TensorFlow backend.
+Generation 8 6 Fitness= 0.455539811819 ofp= 0.9993500000000001 tr_loss=0.192, tr_acc=0.9267, va_loss=0.3434, va_acc=0.8929, va_map=0.455539811819, te_map=0.5932346785830001
+Excuting agent 0008-0010
+Using TensorFlow backend.
+Generation 8 7 Fitness= 0.47405021575 ofp= 0.985 tr_loss=0.1972, tr_acc=0.9236, va_loss=0.3333, va_acc=0.8883, va_map=0.47405021575, te_map=0.575153802605
+Excuting agent 0008-0011
+Using TensorFlow backend.
+Generation 8 1 Fitness= 0.45532018013 ofp= 0.8684200000000002 tr_loss=0.216, tr_acc=0.915, va_loss=0.3843, va_acc=0.8767, va_map=0.45532018013, te_map=0.572770905746
+Excuting agent 0008-0012
+Using TensorFlow backend.
+Generation 8 0 Fitness= 0.407782069722 ofp= 0.8558199999999998 tr_loss=0.2115, tr_acc=0.9172, va_loss=0.3496, va_acc=0.9019, va_map=0.407782069722, te_map=0.575990463657
+Excuting agent 0008-0013
+Using TensorFlow backend.
+Generation 8 2 Fitness= 0.421837826337 ofp= 1.0 tr_loss=0.2476, tr_acc=0.8921, va_loss=0.4355, va_acc=0.8903, va_map=0.421837826337, te_map=0.577609498685
+Excuting agent 0008-0014
+Using TensorFlow backend.
+Generation 8 3 Fitness= 0.414013903872 ofp= 1.0 tr_loss=0.2193, tr_acc=0.8923, va_loss=0.4245, va_acc=0.8894, va_map=0.414013903872, te_map=0.587511910027
+Excuting agent 0008-0015
+Using TensorFlow backend.
+Generation 8 8 Fitness= 0.346851884337 ofp= 1.0 tr_loss=0.3295, tr_acc=0.8925999999999999, va_loss=0.3519, va_acc=0.8873, va_map=0.346851884337, te_map=0.517160879996
+Generation 8 9 Fitness= 0.287894413262 ofp= 1.0 tr_loss=0.3403, tr_acc=0.8909, va_loss=0.3467, va_acc=0.8948, va_map=0.287894413262, te_map=0.482145618025
+Generation 8 10 Fitness= 0.46398889541 ofp= 0.9680800000000009 tr_loss=0.2098, tr_acc=0.9081, va_loss=0.4224, va_acc=0.8836000000000001, va_map=0.46398889541, te_map=0.598791112054
+Generation 8 11 Fitness= 0.450305843959 ofp= 0.9994900000000001 tr_loss=0.2286, tr_acc=0.9006999999999999, va_loss=0.3431, va_acc=0.8968, va_map=0.450305843959, te_map=0.576256880595
+Generation 8 14 Fitness= 0.449655864627 ofp= 1.0 tr_loss=0.2615, tr_acc=0.8892, va_loss=0.3279, va_acc=0.9026999999999999, va_map=0.449655864627, te_map=0.60176752761
+Generation 8 13 Fitness= 0.437639382128 ofp= 0.9648100000000005 tr_loss=0.2313, tr_acc=0.9076, va_loss=0.3842, va_acc=0.8808, va_map=0.437639382128, te_map=0.582092098374
+Generation 8 12 Fitness= 0.473232560974 ofp= 0.9349999999999998 tr_loss=0.2308, tr_acc=0.909, va_loss=0.3478, va_acc=0.8863, va_map=0.473232560974, te_map=0.591985424291
+Generation 8 15 Fitness= 0.465614706847 ofp= 0.9988699999999989 tr_loss=0.2319, tr_acc=0.8951, va_loss=0.343, va_acc=0.8907, va_map=0.465614706847, te_map=0.607975556389
+[2017-08-28T03:43:52+00:00]Best fitness =0.46693946251375 output11-0008-0007.txt (filterCount: 35, kernelSize: 2, poolingWindow: 13, denseSize1: 48, denseSize2: 26, dropout1: 0.3966371063714511, dropout2: 0.07060300885505352, batchSize: 13, epochCount: 35)
+shuffled indices=@[14, 4, 8, 10, 5, 12, 1, 7, 3, 0, 15, 13, 2, 6, 9, 11]
+Excuting agent 0009-0000
+Excuting agent 0009-0001
+Excuting agent 0009-0002
+Excuting agent 0009-0003
+Excuting agent 0009-0004
+Excuting agent 0009-0005
+Excuting agent 0009-0006
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 9 5 Fitness= 0.408300647245 ofp= 0.9378999999999992 tr_loss=0.2741, tr_acc=0.8949, va_loss=0.3348, va_acc=0.8925, va_map=0.408300647245, te_map=0.584791844756
+Excuting agent 0009-0007
+Using TensorFlow backend.
+Generation 9 4 Fitness= 0.407732420065 ofp= 0.99008 tr_loss=0.2777, tr_acc=0.9001, va_loss=0.3148, va_acc=0.8945, va_map=0.407732420065, te_map=0.576034116891
+Excuting agent 0009-0008
+Using TensorFlow backend.
+Generation 9 1 Fitness= 0.424019098174 ofp= 0.7398099999999992 tr_loss=0.2388, tr_acc=0.9049, va_loss=0.3339, va_acc=0.8903, va_map=0.424019098174, te_map=0.56141597424
+Excuting agent 0009-0009
+Using TensorFlow backend.
+Generation 9 6 Fitness= 0.379758811596 ofp= 0.9334400000000004 tr_loss=0.2445, tr_acc=0.9089, va_loss=0.3564, va_acc=0.8853, va_map=0.379758811596, te_map=0.511387759808
+Excuting agent 0009-0010
+Using TensorFlow backend.
+Generation 9 2 Fitness= 0.430007323986 ofp= 1.0 tr_loss=0.2518, tr_acc=0.8895999999999999, va_loss=0.3663, va_acc=0.9005, va_map=0.430007323986, te_map=0.562870853663
+Excuting agent 0009-0011
+Using TensorFlow backend.
+Generation 9 0 Fitness= 0.418575009948 ofp= 0.8572900000000004 tr_loss=0.203, tr_acc=0.9221, va_loss=0.4041, va_acc=0.8588, va_map=0.418575009948, te_map=0.552702299333
+Excuting agent 0009-0012
+Using TensorFlow backend.
+Generation 9 8 Fitness= 0.349776615882 ofp= 1.0 tr_loss=0.3325, tr_acc=0.8925, va_loss=0.3466, va_acc=0.8891, va_map=0.349776615882, te_map=0.531540881186
+Excuting agent 0009-0013
+Using TensorFlow backend.
+Generation 9 3 Fitness= 0.461335307813 ofp= 0.9208999999999986 tr_loss=0.2185, tr_acc=0.8961, va_loss=0.3857, va_acc=0.8909, va_map=0.461335307813, te_map=0.614565476719
+Excuting agent 0009-0014
+Using TensorFlow backend.
+Generation 9 9 Fitness= 0.314496445072 ofp= 1.0 tr_loss=0.3407, tr_acc=0.8915999999999999, va_loss=0.3433, va_acc=0.8928, va_map=0.314496445072, te_map=0.490469803603
+Excuting agent 0009-0015
+Using TensorFlow backend.
+Generation 9 7 Fitness= 0.486708891789 ofp= 0.883149999999997 tr_loss=0.2067, tr_acc=0.9187, va_loss=0.3667, va_acc=0.8947000000000001, va_map=0.486708891789, te_map=0.58054955749
+Generation 9 10 Fitness= 0.47531691477 ofp= 0.6180999999999972 tr_loss=0.2025, tr_acc=0.9143, va_loss=0.4223, va_acc=0.8802, va_map=0.47531691477, te_map=0.560754460659
+Generation 9 11 Fitness= 0.467836411981 ofp= 0.9245699999999994 tr_loss=0.1984, tr_acc=0.9171, va_loss=0.4021, va_acc=0.8847, va_map=0.467836411981, te_map=0.591704277969
+Generation 9 12 Fitness= 0.420888279741 ofp= 0.6634 tr_loss=0.2399, tr_acc=0.9111, va_loss=0.3717, va_acc=0.8731, va_map=0.420888279741, te_map=0.5831242682410001
+Generation 9 13 Fitness= 0.418504709289 ofp= 0.9566000000000001 tr_loss=0.226, tr_acc=0.9096, va_loss=0.3971, va_acc=0.8803, va_map=0.418504709289, te_map=0.560746362007
+Generation 9 14 Fitness= 0.476644113184 ofp= 0.9992299999999992 tr_loss=0.2073, tr_acc=0.9106, va_loss=0.3328, va_acc=0.8895999999999999, va_map=0.476644113184, te_map=0.593296080611
+Generation 9 15 Fitness= 0.513308165707 ofp= 0.9990300000000001 tr_loss=0.2364, tr_acc=0.9019, va_loss=0.3795, va_acc=0.8682, va_map=0.513308165707, te_map=0.590605488361
+[2017-08-28T04:05:36+00:00]Best fitness =0.5128102567862642 output11-0009-0015.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8135222699897946, dropout2: 0.006238161254346225, batchSize: 56, epochCount: 32)
+shuffled indices=@[6, 8, 12, 1, 0, 7, 13, 14, 4, 15, 11, 5, 3, 9, 2, 10]
+Excuting agent 0010-0000
+Excuting agent 0010-0001
+Excuting agent 0010-0002
+Excuting agent 0010-0004
+Excuting agent 0010-0003
+Excuting agent 0010-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 10 4 Fitness= 0.422812469719 ofp= 0.9997400000000001 tr_loss=0.2826, tr_acc=0.8932, va_loss=0.3326, va_acc=0.8887, va_map=0.422812469719, te_map=0.587429517714
+Excuting agent 0010-0006
+Using TensorFlow backend.
+Generation 10 5 Fitness= 0.4806085759 ofp= 0.9968700000000004 tr_loss=0.2583, tr_acc=0.8944, va_loss=0.3391, va_acc=0.8872, va_map=0.4806085759, te_map=0.598020585689
+Excuting agent 0010-0007
+Using TensorFlow backend.
+Generation 10 1 Fitness= 0.447332028618 ofp= 0.8524000000000002 tr_loss=0.2367, tr_acc=0.9085, va_loss=0.357, va_acc=0.8881, va_map=0.447332028618, te_map=0.590123010975
+Excuting agent 0010-0008
+Using TensorFlow backend.
+Generation 10 0 Fitness= 0.419794891224 ofp= 0.98173 tr_loss=0.227, tr_acc=0.9126, va_loss=0.3763, va_acc=0.8731, va_map=0.419794891224, te_map=0.553968202146
+Excuting agent 0010-0009
+Using TensorFlow backend.
+Generation 10 2 Fitness= 0.472068495037 ofp= 1.0 tr_loss=0.2537, tr_acc=0.892, va_loss=0.3901, va_acc=0.8907, va_map=0.472068495037, te_map=0.5910725846030001
+Excuting agent 0010-0010
+Using TensorFlow backend.
+Generation 10 3 Fitness= 0.420088232754 ofp= 0.9850400000000017 tr_loss=0.2463, tr_acc=0.8885, va_loss=0.3985, va_acc=0.9154, va_map=0.420088232754, te_map=0.588085142089
+Excuting agent 0010-0011
+Using TensorFlow backend.
+Generation 10 9 Fitness= 0.308285977792 ofp= 1.0 tr_loss=0.3418, tr_acc=0.8909, va_loss=0.3408, va_acc=0.895, va_map=0.308285977792, te_map=0.523639101674
+Excuting agent 0010-0012
+Generation 10 8 Fitness= 0.346335695016 ofp= 1.0 tr_loss=0.3294, tr_acc=0.8942, va_loss=0.3614, va_acc=0.8815, va_map=0.346335695016, te_map=0.524891060601
+Excuting agent 0010-0013
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 10 6 Fitness= 0.485883479197 ofp= 0.8676900000000001 tr_loss=0.1983, tr_acc=0.9236, va_loss=0.3279, va_acc=0.8881, va_map=0.485883479197, te_map=0.570325598858
+Excuting agent 0010-0014
+Using TensorFlow backend.
+Generation 10 7 Fitness= 0.449225645621 ofp= 0.9364499999999994 tr_loss=0.2026, tr_acc=0.9208, va_loss=0.3515, va_acc=0.8725000000000001, va_map=0.449225645621, te_map=0.582757512421
+Excuting agent 0010-0015
+Using TensorFlow backend.
+Generation 10 11 Fitness= 0.442558585507 ofp= 0.9760400000000027 tr_loss=0.2078, tr_acc=0.8999, va_loss=0.4756, va_acc=0.8912, va_map=0.442558585507, te_map=0.565120240667
+Generation 10 10 Fitness= 0.435950098554 ofp= 0.9917200000000002 tr_loss=0.1841, tr_acc=0.9236, va_loss=0.3979, va_acc=0.8921, va_map=0.435950098554, te_map=0.60114566661
+Generation 10 12 Fitness= 0.445835806949 ofp= 0.9547600000000003 tr_loss=0.2437, tr_acc=0.9011, va_loss=0.3517, va_acc=0.8761, va_map=0.445835806949, te_map=0.530649140806
+Generation 10 13 Fitness= 0.437676357838 ofp= 0.7391800000000001 tr_loss=0.2399, tr_acc=0.8996, va_loss=0.3347, va_acc=0.8814, va_map=0.437676357838, te_map=0.586657084776
+Generation 10 14 Fitness= 0.415288802154 ofp= 0.8620000000000014 tr_loss=0.1626, tr_acc=0.9152, va_loss=0.3964, va_acc=0.8404, va_map=0.415288802154, te_map=0.589005334945
+Generation 10 15 Fitness= 0.422554280805 ofp= 0.8748100000000003 tr_loss=0.1624, tr_acc=0.9137999999999999, va_loss=0.335, va_acc=0.8858, va_map=0.422554280805, te_map=0.57348109469
+[2017-08-28T04:30:04+00:00]Best fitness =0.4791042710574332 output11-0010-0005.txt (filterCount: 11, kernelSize: 3, poolingWindow: 13, denseSize1: 31, denseSize2: 13, dropout1: 0.197694145673339, dropout2: 0.6668315366514092, batchSize: 38, epochCount: 22)
+shuffled indices=@[10, 7, 4, 2, 9, 11, 12, 3, 13, 15, 8, 14, 0, 6, 1, 5]
+Excuting agent 0011-0000
+Excuting agent 0011-0001
+Excuting agent 0011-0002
+Excuting agent 0011-0003
+Excuting agent 0011-0005
+Excuting agent 0011-0004
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 11 4 Fitness= 0.427821948921 ofp= 0.9987600000000001 tr_loss=0.2764, tr_acc=0.8932, va_loss=0.3293, va_acc=0.8898, va_map=0.427821948921, te_map=0.591020567859
+Excuting agent 0011-0006
+Using TensorFlow backend.
+Generation 11 5 Fitness= 0.481062367213 ofp= 0.9015999999999994 tr_loss=0.2606, tr_acc=0.9015, va_loss=0.3596, va_acc=0.8639, va_map=0.481062367213, te_map=0.601724016696
+Excuting agent 0011-0007
+Using TensorFlow backend.
+Generation 11 0 Fitness= 0.416905112893 ofp= 0.9735400000000006 tr_loss=0.2299, tr_acc=0.9135, va_loss=0.3663, va_acc=0.8773, va_map=0.416905112893, te_map=0.582855400392
+Excuting agent 0011-0008
+Generation 11 1 Fitness= 0.450135692027 ofp= 0.9332799999999996 tr_loss=0.2312, tr_acc=0.9094, va_loss=0.3599, va_acc=0.8818, va_map=0.450135692027, te_map=0.5750882962
+Excuting agent 0011-0009
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 11 2 Fitness= 0.44369185016 ofp= 0.9991999999999999 tr_loss=0.2451, tr_acc=0.8944, va_loss=0.3367, va_acc=0.8915999999999999, va_map=0.44369185016, te_map=0.61980833758
+Excuting agent 0011-0010
+Using TensorFlow backend.
+Generation 11 9 Fitness= 0.321732200137 ofp= 1.0 tr_loss=0.3327, tr_acc=0.8924, va_loss=0.3465, va_acc=0.8895999999999999, va_map=0.321732200137, te_map=0.522608306872
+Excuting agent 0011-0011
+Using TensorFlow backend.
+Generation 11 7 Fitness= 0.400107308366 ofp= 0.9275500000000003 tr_loss=0.2419, tr_acc=0.9125, va_loss=0.3595, va_acc=0.8861, va_map=0.400107308366, te_map=0.538721853376
+Excuting agent 0011-0012
+Using TensorFlow backend.
+Generation 11 8 Fitness= 0.304780993535 ofp= 1.0 tr_loss=0.341, tr_acc=0.8908, va_loss=0.3368, va_acc=0.8958, va_map=0.304780993535, te_map=0.489123614136
+Excuting agent 0011-0013
+Using TensorFlow backend.
+Generation 11 6 Fitness= 0.462551958162 ofp= 0.9510900000000007 tr_loss=0.1902, tr_acc=0.9244, va_loss=0.3663, va_acc=0.8767, va_map=0.462551958162, te_map=0.588391430489
+Excuting agent 0011-0014
+Using TensorFlow backend.
+Generation 11 3 Fitness= 0.49807865147 ofp= 0.9310299999999982 tr_loss=0.2143, tr_acc=0.9038, va_loss=0.3512, va_acc=0.8913, va_map=0.49807865147, te_map=0.612575202521
+Excuting agent 0011-0015
+Using TensorFlow backend.
+Generation 11 10 Fitness= 0.458750708058 ofp= 0.995459999999998 tr_loss=0.2036, tr_acc=0.9137999999999999, va_loss=0.3791, va_acc=0.8794, va_map=0.458750708058, te_map=0.562787616556
+Generation 11 11 Fitness= 0.470102152963 ofp= 0.9683200000000006 tr_loss=0.2077, tr_acc=0.9132, va_loss=0.3796, va_acc=0.8839, va_map=0.470102152963, te_map=0.56589989882
+Generation 11 13 Fitness= 0.408250646581 ofp= 0.02979999999999972 tr_loss=0.2317, tr_acc=0.9104, va_loss=0.3515, va_acc=0.8658, va_map=0.408250646581, te_map=0.606776154552
+Generation 11 12 Fitness= 0.437894875862 ofp= 0.9582400000000008 tr_loss=0.2231, tr_acc=0.9155, va_loss=0.3589, va_acc=0.8852, va_map=0.437894875862, te_map=0.564269764637
+Generation 11 14 Fitness= 0.45441097269 ofp= 0.9219700000000005 tr_loss=0.217, tr_acc=0.9062, va_loss=0.356, va_acc=0.8781, va_map=0.45441097269, te_map=0.542524401525
+Generation 11 15 Fitness= 0.476474242251 ofp= 0.9839799999999997 tr_loss=0.1772, tr_acc=0.9072, va_loss=0.3326, va_acc=0.887, va_map=0.476474242251, te_map=0.595077165684
+[2017-08-28T04:55:32+00:00]Best fitness =0.4688411248901388 output11-0011-0015.txt (filterCount: 43, kernelSize: 3, poolingWindow: 11, denseSize1: 24, denseSize2: 31, dropout1: 0.8135222699897946, dropout2: 0.006238161254346225, batchSize: 56, epochCount: 32)
+shuffled indices=@[0, 13, 10, 15, 14, 2, 4, 5, 6, 3, 1, 8, 7, 11, 9, 12]
+Excuting agent 0012-0000
+Excuting agent 0012-0001
+Excuting agent 0012-0002
+Excuting agent 0012-0003
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 12 0 Fitness= 0.428768656366 ofp= 0.9264999999999997 tr_loss=0.245, tr_acc=0.9074, va_loss=0.3258, va_acc=0.8998, va_map=0.428768656366, te_map=0.594751499963
+Excuting agent 0012-0004
+Excuting agent 0012-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 12 1 Fitness= 0.469625157598 ofp= 0.970549999999999 tr_loss=0.2248, tr_acc=0.9124, va_loss=0.343, va_acc=0.8815, va_map=0.469625157598, te_map=0.5687797283229999
+Excuting agent 0012-0006
+Using TensorFlow backend.
+Generation 12 2 Fitness= 0.438846915116 ofp= 1.0 tr_loss=0.2535, tr_acc=0.892, va_loss=0.4072, va_acc=0.8909, va_map=0.438846915116, te_map=0.5856159743080001
+Excuting agent 0012-0007
+Using TensorFlow backend.
+Generation 12 5 Fitness= 0.428120384308 ofp= 0.9955000000000001 tr_loss=0.2619, tr_acc=0.8946, va_loss=0.3042, va_acc=0.9006, va_map=0.428120384308, te_map=0.6263818702490001
+Excuting agent 0012-0008
+Using TensorFlow backend.
+Generation 12 4 Fitness= 0.439758537887 ofp= 0.99936 tr_loss=0.2636, tr_acc=0.894, va_loss=0.3187, va_acc=0.8911, va_map=0.439758537887, te_map=0.597019234626
+Excuting agent 0012-0009
+Using TensorFlow backend.
+Generation 12 3 Fitness= 0.428153437224 ofp= 0.9989900000000002 tr_loss=0.1766, tr_acc=0.9216, va_loss=0.3066, va_acc=0.909, va_map=0.428153437224, te_map=0.5694036807790001
+Excuting agent 0012-0010
+Using TensorFlow backend.
+Generation 12 6 Fitness= 0.478220629225 ofp= 0.7919900000000001 tr_loss=0.1969, tr_acc=0.9215, va_loss=0.3378, va_acc=0.878, va_map=0.478220629225, te_map=0.589829015434
+Excuting agent 0012-0011
+Using TensorFlow backend.
+Generation 12 9 Fitness= 0.306516222822 ofp= 1.0 tr_loss=0.3389, tr_acc=0.8942, va_loss=0.3678, va_acc=0.8808, va_map=0.306516222822, te_map=0.489935664293
+Excuting agent 0012-0012
+Using TensorFlow backend.
+Generation 12 7 Fitness= 0.391647104331 ofp= 0.793360000000001 tr_loss=0.2338, tr_acc=0.9141, va_loss=0.3838, va_acc=0.8904, va_map=0.391647104331, te_map=0.558342749953
+Excuting agent 0012-0013
+Using TensorFlow backend.
+Generation 12 8 Fitness= 0.32470487834 ofp= 0.9997799999999998 tr_loss=0.3355, tr_acc=0.8901, va_loss=0.3207, va_acc=0.9, va_map=0.32470487834, te_map=0.509816872718
+Excuting agent 0012-0014
+Using TensorFlow backend.
+Generation 12 10 Fitness= 0.474627639043 ofp= 0.9640000000000014 tr_loss=0.2106, tr_acc=0.9105, va_loss=0.3589, va_acc=0.894, va_map=0.474627639043, te_map=0.581479423807
+Excuting agent 0012-0015
+Using TensorFlow backend.
+Generation 12 11 Fitness= 0.452979622842 ofp= 0.8986199999999991 tr_loss=0.2183, tr_acc=0.9074, va_loss=0.378, va_acc=0.8846000000000001, va_map=0.452979622842, te_map=0.601809838576
+Generation 12 12 Fitness= 0.442570686755 ofp= 0.9812999999999996 tr_loss=0.2316, tr_acc=0.9064, va_loss=0.3558, va_acc=0.8814, va_map=0.442570686755, te_map=0.560226230168
+Generation 12 13 Fitness= 0.422613109026 ofp= 0.9109000000000006 tr_loss=0.2388, tr_acc=0.9059, va_loss=0.3637, va_acc=0.8716, va_map=0.422613109026, te_map=0.550528250153
+Generation 12 14 Fitness= 0.421260488885 ofp= 0.9888 tr_loss=0.2034, tr_acc=0.9207, va_loss=0.3144, va_acc=0.898, va_map=0.421260488885, te_map=0.576090606129
+Generation 12 15 Fitness= 0.426418872703 ofp= 0.9794799999999999 tr_loss=0.1704, tr_acc=0.9116, va_loss=0.3508, va_acc=0.879, va_map=0.426418872703, te_map=0.554954717272
+[2017-08-28T05:23:26+00:00]Best fitness =0.4575410440374527 output11-0012-0010.txt (filterCount: 49, kernelSize: 2, poolingWindow: 7, denseSize1: 42, denseSize2: 36, dropout1: 0.5287882009580925, dropout2: 0.4001500331978672, batchSize: 33, epochCount: 17)
+shuffled indices=@[6, 2, 13, 8, 10, 14, 11, 1, 0, 5, 9, 3, 7, 15, 12, 4]
+Excuting agent 0013-0000
+Excuting agent 0013-0001
+Excuting agent 0013-0002
+Excuting agent 0013-0003
+Excuting agent 0013-0004
+Excuting agent 0013-0005
+Excuting agent 0013-0006
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 13 4 Fitness= 0.443531180366 ofp= 0.9923499999999998 tr_loss=0.2522, tr_acc=0.8975, va_loss=0.352, va_acc=0.8818, va_map=0.443531180366, te_map=0.610597971117
+Excuting agent 0013-0007
+Using TensorFlow backend.
+Generation 13 5 Fitness= 0.446127927804 ofp= 0.9822900000000001 tr_loss=0.2593, tr_acc=0.8997000000000001, va_loss=0.3454, va_acc=0.8901, va_map=0.446127927804, te_map=0.5802564982490001
+Excuting agent 0013-0008
+Using TensorFlow backend.
+Generation 13 0 Fitness= 0.43095453148 ofp= 0.9412899999999997 tr_loss=0.2367, tr_acc=0.9029, va_loss=0.3673, va_acc=0.8714, va_map=0.43095453148, te_map=0.582291654241
+Excuting agent 0013-0009
+Using TensorFlow backend.
+Generation 13 1 Fitness= 0.43495697514 ofp= 0.8976999999999992 tr_loss=0.224, tr_acc=0.911, va_loss=0.3872, va_acc=0.8701, va_map=0.43495697514, te_map=0.576904749639
+Excuting agent 0013-0010
+Using TensorFlow backend.
+Generation 13 6 Fitness= 0.457195883556 ofp= 0.9740799999999997 tr_loss=0.1856, tr_acc=0.928, va_loss=0.339, va_acc=0.8941, va_map=0.457195883556, te_map=0.593064213679
+Excuting agent 0013-0011
+Using TensorFlow backend.
+Generation 13 2 Fitness= 0.457362911983 ofp= 1.0 tr_loss=0.2396, tr_acc=0.8905999999999999, va_loss=0.3943, va_acc=0.8959, va_map=0.457362911983, te_map=0.583258310781
+Excuting agent 0013-0012
+Using TensorFlow backend.
+Generation 13 3 Fitness= 0.430640343435 ofp= 0.991320000000001 tr_loss=0.2353, tr_acc=0.89, va_loss=0.4343, va_acc=0.9063, va_map=0.430640343435, te_map=0.5780304515869999
+Excuting agent 0013-0013
+Using TensorFlow backend.
+Generation 13 9 Fitness= 0.327519160923 ofp= 1.0 tr_loss=0.335, tr_acc=0.8905999999999999, va_loss=0.3315, va_acc=0.8952, va_map=0.327519160923, te_map=0.524769709647
+Excuting agent 0013-0014
+Using TensorFlow backend.
+Generation 13 8 Fitness= 0.312269986397 ofp= 1.0 tr_loss=0.3341, tr_acc=0.8911, va_loss=0.3381, va_acc=0.8943, va_map=0.312269986397, te_map=0.507140698856
+Excuting agent 0013-0015
+Using TensorFlow backend.
+Generation 13 10 Fitness= 0.439931576934 ofp= 0.724370000000002 tr_loss=0.2211, tr_acc=0.9018, va_loss=0.4145, va_acc=0.8822, va_map=0.439931576934, te_map=0.554678089774
+Generation 13 7 Fitness= 0.383091656571 ofp= 0.9394 tr_loss=0.244, tr_acc=0.9105, va_loss=0.337, va_acc=0.8928, va_map=0.383091656571, te_map=0.583104494621
+Generation 13 11 Fitness= 0.473289904531 ofp= 0.9243400000000019 tr_loss=0.211, tr_acc=0.9049, va_loss=0.43, va_acc=0.8863, va_map=0.473289904531, te_map=0.568899345781
+Generation 13 12 Fitness= 0.439721615683 ofp= 0.9251199999999991 tr_loss=0.2467, tr_acc=0.9067, va_loss=0.3522, va_acc=0.8897, va_map=0.439721615683, te_map=0.572782966372
+Generation 13 13 Fitness= 0.435979720517 ofp= 0.923 tr_loss=0.2356, tr_acc=0.9089, va_loss=0.3661, va_acc=0.8783, va_map=0.435979720517, te_map=0.564433814008
+Generation 13 14 Fitness= 0.459807074363 ofp= 1.0 tr_loss=0.2676, tr_acc=0.8945, va_loss=0.3525, va_acc=0.8822, va_map=0.459807074363, te_map=0.570667346936
+Generation 13 15 Fitness= 0.447193613796 ofp= 1.0 tr_loss=0.2322, tr_acc=0.8948, va_loss=0.3549, va_acc=0.8925, va_map=0.447193613796, te_map=0.598212379337
+[2017-08-28T05:48:11+00:00]Best fitness =0.459807074363 output11-0013-0014.txt (filterCount: 43, kernelSize: 3, poolingWindow: 12, denseSize1: 24, denseSize2: 31, dropout1: 0.8144918983082674, dropout2: 0.01035317933115078, batchSize: 56, epochCount: 32)
+shuffled indices=@[7, 6, 11, 0, 14, 5, 8, 2, 12, 13, 4, 1, 9, 3, 15, 10]
+Excuting agent 0014-0000
+Excuting agent 0014-0001
+Excuting agent 0014-0002
+Excuting agent 0014-0004
+Excuting agent 0014-0003
+Excuting agent 0014-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 14 5 Fitness= 0.441506625562 ofp= 0.9991400000000001 tr_loss=0.2701, tr_acc=0.8935999999999999, va_loss=0.3024, va_acc=0.8993, va_map=0.441506625562, te_map=0.593400550174
+Excuting agent 0014-0006
+Using TensorFlow backend.
+Generation 14 4 Fitness= 0.454786901521 ofp= 0.9961 tr_loss=0.271, tr_acc=0.8949, va_loss=0.3026, va_acc=0.903, va_map=0.454786901521, te_map=0.592335185909
+Excuting agent 0014-0007
+Using TensorFlow backend.
+Generation 14 1 Fitness= 0.428429930831 ofp= 0.97705 tr_loss=0.2266, tr_acc=0.9106, va_loss=0.3911, va_acc=0.8767, va_map=0.428429930831, te_map=0.562845034479
+Excuting agent 0014-0008
+Using TensorFlow backend.
+Generation 14 0 Fitness= 0.442402569173 ofp= 0.9790600000000023 tr_loss=0.2296, tr_acc=0.9091, va_loss=0.3841, va_acc=0.8868, va_map=0.442402569173, te_map=0.583098262959
+Excuting agent 0014-0009
+Using TensorFlow backend.
+Generation 14 2 Fitness= 0.440899906513 ofp= 0.9908999999999998 tr_loss=0.2279, tr_acc=0.9024, va_loss=0.3604, va_acc=0.8905, va_map=0.440899906513, te_map=0.594584079336
+Excuting agent 0014-0010
+Using TensorFlow backend.
+Generation 14 8 Fitness= 0.285425204615 ofp= 1.0 tr_loss=0.3419, tr_acc=0.8918, va_loss=0.3436, va_acc=0.8917, va_map=0.285425204615, te_map=0.492653905968
+Excuting agent 0014-0011
+Using TensorFlow backend.
+Generation 14 6 Fitness= 0.484495749778 ofp= 0.9833400000000001 tr_loss=0.2023, tr_acc=0.92, va_loss=0.3623, va_acc=0.8834, va_map=0.484495749778, te_map=0.593965873233
+Excuting agent 0014-0012
+Using TensorFlow backend.
+Generation 14 3 Fitness= 0.493603896097 ofp= 0.9864999999999998 tr_loss=0.2168, tr_acc=0.8953, va_loss=0.3446, va_acc=0.8825, va_map=0.493603896097, te_map=0.607879122237
+Excuting agent 0014-0013
+Using TensorFlow backend.
+Generation 14 7 Fitness= 0.445744325536 ofp= 0.9913200000000003 tr_loss=0.2369, tr_acc=0.9129, va_loss=0.344, va_acc=0.8924, va_map=0.445744325536, te_map=0.5682638671
+Excuting agent 0014-0014
+Using TensorFlow backend.
+Generation 14 9 Fitness= 0.336220603827 ofp= 1.0 tr_loss=0.3353, tr_acc=0.8917, va_loss=0.3416, va_acc=0.8919, va_map=0.336220603827, te_map=0.504345687019
+Excuting agent 0014-0015
+Using TensorFlow backend.
+Generation 14 10 Fitness= 0.464163238734 ofp= 0.4561600000000052 tr_loss=0.1894, tr_acc=0.9195, va_loss=0.4743, va_acc=0.8855, va_map=0.464163238734, te_map=0.588687114913
+Generation 14 11 Fitness= 0.434332396212 ofp= 0.8631999999999999 tr_loss=0.1898, tr_acc=0.9233, va_loss=0.365, va_acc=0.8873, va_map=0.434332396212, te_map=0.559680647417
+Generation 14 12 Fitness= 0.429010836181 ofp= 0.9989700000000001 tr_loss=0.2366, tr_acc=0.9064, va_loss=0.3308, va_acc=0.8958, va_map=0.429010836181, te_map=0.56372244791
+Generation 14 13 Fitness= 0.427313888021 ofp= 0.9180999999999998 tr_loss=0.2295, tr_acc=0.9071, va_loss=0.3576, va_acc=0.8703, va_map=0.427313888021, te_map=0.60463972139
+Generation 14 15 Fitness= 0.430866712776 ofp= 0.9926799999999995 tr_loss=0.2699, tr_acc=0.89, va_loss=0.3514, va_acc=0.9103, va_map=0.430866712776, te_map=0.56976571701
+Generation 14 14 Fitness= 0.446927651711 ofp= 0.99963 tr_loss=0.2104, tr_acc=0.913, va_loss=0.3544, va_acc=0.8845, va_map=0.446927651711, te_map=0.545635599839
+[2017-08-28T06:14:23+00:00]Best fitness =0.4869402434996904 output11-0014-0003.txt (filterCount: 45, kernelSize: 5, poolingWindow: 6, denseSize1: 19, denseSize2: 30, dropout1: 0.7750423293747537, dropout2: 0.07063157820807291, batchSize: 11, epochCount: 44)
+shuffled indices=@[3, 8, 0, 9, 10, 4, 1, 12, 11, 5, 2, 7, 6, 14, 15, 13]
+Excuting agent 0015-0000
+Excuting agent 0015-0001
+Excuting agent 0015-0003
+Excuting agent 0015-0002
+Excuting agent 0015-0004
+Excuting agent 0015-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 15 5 Fitness= 0.424955756506 ofp= 0.9994900000000001 tr_loss=0.2635, tr_acc=0.8932, va_loss=0.3292, va_acc=0.8951, va_map=0.424955756506, te_map=0.6100396927640001
+Excuting agent 0015-0006
+Using TensorFlow backend.
+Generation 15 4 Fitness= 0.489519951406 ofp= 0.9970999999999997 tr_loss=0.2574, tr_acc=0.9018, va_loss=0.3216, va_acc=0.8947000000000001, va_map=0.489519951406, te_map=0.574039688516
+Excuting agent 0015-0007
+Using TensorFlow backend.
+Generation 15 0 Fitness= 0.430521754125 ofp= 0.9982600000000001 tr_loss=0.2336, tr_acc=0.9127999999999999, va_loss=0.3323, va_acc=0.8984, va_map=0.430521754125, te_map=0.5815631560059999
+Excuting agent 0015-0008
+Using TensorFlow backend.
+Generation 15 1 Fitness= 0.407491858669 ofp= 1.0 tr_loss=0.2336, tr_acc=0.9082, va_loss=0.3664, va_acc=0.886, va_map=0.407491858669, te_map=0.563742963148
+Excuting agent 0015-0009
+Using TensorFlow backend.
+Generation 15 2 Fitness= 0.45543619296 ofp= 0.9868499999999986 tr_loss=0.2167, tr_acc=0.9011, va_loss=0.3793, va_acc=0.8843, va_map=0.45543619296, te_map=0.6048982125870001
+Excuting agent 0015-0010
+Using TensorFlow backend.
+Generation 15 3 Fitness= 0.447899316739 ofp= 0.9628000000000041 tr_loss=0.2157, tr_acc=0.899, va_loss=0.4048, va_acc=0.8966, va_map=0.447899316739, te_map=0.55513483659
+Excuting agent 0015-0011
+Using TensorFlow backend.
+Generation 15 8 Fitness= 0.314871580767 ofp= 1.0 tr_loss=0.3379, tr_acc=0.8931, va_loss=0.3543, va_acc=0.8858, va_map=0.314871580767, te_map=0.506534859504
+Excuting agent 0015-0012
+Using TensorFlow backend.
+Generation 15 9 Fitness= 0.325276637564 ofp= 1.0 tr_loss=0.3358, tr_acc=0.8937, va_loss=0.362, va_acc=0.8829, va_map=0.325276637564, te_map=0.494339037621
+Excuting agent 0015-0013
+Using TensorFlow backend.
+Generation 15 6 Fitness= 0.449715158582 ofp= 0.8255800000000002 tr_loss=0.1921, tr_acc=0.9271, va_loss=0.3286, va_acc=0.8898, va_map=0.449715158582, te_map=0.559847246968
+Excuting agent 0015-0014
+Using TensorFlow backend.
+Generation 15 7 Fitness= 0.442791317775 ofp= 0.9367999999999999 tr_loss=0.1957, tr_acc=0.9229000000000001, va_loss=0.3367, va_acc=0.8894, va_map=0.442791317775, te_map=0.543007656114
+Excuting agent 0015-0015
+Using TensorFlow backend.
+Generation 15 10 Fitness= 0.483523130863 ofp= 0.9361399999999992 tr_loss=0.2087, tr_acc=0.9144, va_loss=0.3703, va_acc=0.8865, va_map=0.483523130863, te_map=0.592934547489
+Generation 15 11 Fitness= 0.487240870566 ofp= 0.9386800000000011 tr_loss=0.2202, tr_acc=0.8978, va_loss=0.3429, va_acc=0.905, va_map=0.487240870566, te_map=0.5973448254730001
+Generation 15 12 Fitness= 0.417600623643 ofp= 0.7345099999999994 tr_loss=0.2437, tr_acc=0.9038, va_loss=0.3457, va_acc=0.8729, va_map=0.417600623643, te_map=0.620097958857
+Generation 15 13 Fitness= 0.430638952514 ofp= 0.9332999999999998 tr_loss=0.234, tr_acc=0.9115, va_loss=0.3566, va_acc=0.8816000000000001, va_map=0.430638952514, te_map=0.579822519201
+Generation 15 15 Fitness= 0.421971228774 ofp= 0.99988 tr_loss=0.2792, tr_acc=0.8937, va_loss=0.3734, va_acc=0.8967000000000001, va_map=0.421971228774, te_map=0.5772531486469999
+Generation 15 14 Fitness= 0.414462640624 ofp= 1.0 tr_loss=0.2429, tr_acc=0.894, va_loss=0.3534, va_acc=0.8871, va_map=0.414462640624, te_map=0.568030057275
+[2017-08-28T06:40:12+00:00]Best fitness =0.4881003435469224 output11-0015-0004.txt (filterCount: 11, kernelSize: 3, poolingWindow: 13, denseSize1: 31, denseSize2: 13, dropout1: 0.1982363685828009, dropout2: 0.664563857111746, batchSize: 37, epochCount: 22)
+shuffled indices=@[1, 5, 9, 12, 6, 10, 2, 0, 13, 11, 14, 7, 8, 4, 15, 3]
+Excuting agent 0016-0000
+Excuting agent 0016-0001
+Excuting agent 0016-0002
+Excuting agent 0016-0003
+Excuting agent 0016-0004
+Excuting agent 0016-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 16 4 Fitness= 0.448394363399 ofp= 0.9927099999999999 tr_loss=0.2707, tr_acc=0.8931, va_loss=0.3051, va_acc=0.9004, va_map=0.448394363399, te_map=0.610018301187
+Excuting agent 0016-0006
+Using TensorFlow backend.
+Generation 16 0 Fitness= 0.417946300295 ofp= 0.9804999999999999 tr_loss=0.2367, tr_acc=0.9112, va_loss=0.3468, va_acc=0.8852, va_map=0.417946300295, te_map=0.567362177242
+Excuting agent 0016-0007
+Using TensorFlow backend.
+Generation 16 5 Fitness= 0.443246994629 ofp= 0.9603199999999996 tr_loss=0.2543, tr_acc=0.9059, va_loss=0.292, va_acc=0.9024, va_map=0.443246994629, te_map=0.54838091858
+Excuting agent 0016-0008
+Using TensorFlow backend.
+Generation 16 1 Fitness= 0.456472100378 ofp= 0.9843999999999999 tr_loss=0.2401, tr_acc=0.9085, va_loss=0.3381, va_acc=0.8947000000000001, va_map=0.456472100378, te_map=0.584234924838
+Excuting agent 0016-0009
+Using TensorFlow backend.
+Generation 16 9 Fitness= 0.348415165852 ofp= 1.0 tr_loss=0.3403, tr_acc=0.8909, va_loss=0.3367, va_acc=0.8951, va_map=0.348415165852, te_map=0.498895883591
+Excuting agent 0016-0010
+Using TensorFlow backend.
+Generation 16 3 Fitness= 0.463023851191 ofp= 0.9927700000000008 tr_loss=0.2257, tr_acc=0.8995, va_loss=0.4017, va_acc=0.877, va_map=0.463023851191, te_map=0.603997908788
+Excuting agent 0016-0011
+Using TensorFlow backend.
+Generation 16 8 Fitness= 0.303666887987 ofp= 1.0 tr_loss=0.3473, tr_acc=0.8885, va_loss=0.3189, va_acc=0.9046999999999999, va_map=0.303666887987, te_map=0.510586749112
+Excuting agent 0016-0012
+Using TensorFlow backend.
+Generation 16 2 Fitness= 0.412632145172 ofp= 1.0 tr_loss=0.2246, tr_acc=0.898, va_loss=0.3952, va_acc=0.8763, va_map=0.412632145172, te_map=0.542178521251
+Excuting agent 0016-0013
+Using TensorFlow backend.
+Generation 16 6 Fitness= 0.439930973271 ofp= 0.957839999999999 tr_loss=0.1949, tr_acc=0.9238, va_loss=0.3367, va_acc=0.896, va_map=0.439930973271, te_map=0.57145346426
+Excuting agent 0016-0014
+Using TensorFlow backend.
+Generation 16 7 Fitness= 0.44883621008 ofp= 0.9430400000000002 tr_loss=0.2059, tr_acc=0.9214, va_loss=0.3352, va_acc=0.8932, va_map=0.44883621008, te_map=0.592516776714
+Excuting agent 0016-0015
+Using TensorFlow backend.
+Generation 16 11 Fitness= 0.442176574821 ofp= 0.8469999999999998 tr_loss=0.2056, tr_acc=0.9129, va_loss=0.3454, va_acc=0.8898, va_map=0.442176574821, te_map=0.6009479765670001
+Generation 16 10 Fitness= 0.462958500431 ofp= 0.7309200000000008 tr_loss=0.1838, tr_acc=0.9198, va_loss=0.3823, va_acc=0.8933, va_map=0.462958500431, te_map=0.579709998004
+Generation 16 12 Fitness= 0.443126411168 ofp= 0.8313699999999993 tr_loss=0.2298, tr_acc=0.9064, va_loss=0.3551, va_acc=0.8821, va_map=0.443126411168, te_map=0.552833504042
+Generation 16 13 Fitness= 0.428732528682 ofp= 0.9684600000000003 tr_loss=0.2439, tr_acc=0.9066, va_loss=0.3016, va_acc=0.902, va_map=0.428732528682, te_map=0.590482870942
+Generation 16 14 Fitness= 0.430419239633 ofp= 0.9978400000000003 tr_loss=0.1966, tr_acc=0.9123, va_loss=0.3968, va_acc=0.8794999999999999, va_map=0.430419239633, te_map=0.560787765801
+Generation 16 15 Fitness= 0.4493343632 ofp= 0.99996 tr_loss=0.1891, tr_acc=0.9342, va_loss=0.3262, va_acc=0.8866000000000001, va_map=0.4493343632, te_map=0.544173566008
+[2017-08-28T07:08:39+00:00]Best fitness =0.4596761887468894 output11-0016-0003.txt (filterCount: 45, kernelSize: 5, poolingWindow: 6, denseSize1: 19, denseSize2: 30, dropout1: 0.7762491178144216, dropout2: 0.06840881008486238, batchSize: 11, epochCount: 43)
+shuffled indices=@[7, 8, 14, 3, 4, 5, 1, 0, 13, 2, 15, 10, 11, 12, 6, 9]
+Excuting agent 0017-0000
+Excuting agent 0017-0001
+Excuting agent 0017-0002
+Excuting agent 0017-0003
+Excuting agent 0017-0004
+Excuting agent 0017-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 17 4 Fitness= 0.458986208122 ofp= 0.9888199999999997 tr_loss=0.2586, tr_acc=0.8969, va_loss=0.3441, va_acc=0.8889, va_map=0.458986208122, te_map=0.621990308242
+Excuting agent 0017-0006
+Using TensorFlow backend.
+Generation 17 5 Fitness= 0.458917377816 ofp= 0.9970399999999999 tr_loss=0.255, tr_acc=0.897, va_loss=0.334, va_acc=0.8902, va_map=0.458917377816, te_map=0.58595899637
+Excuting agent 0017-0007
+Using TensorFlow backend.
+Generation 17 1 Fitness= 0.414783192791 ofp= 0.9155800000000009 tr_loss=0.2385, tr_acc=0.9052, va_loss=0.3582, va_acc=0.8946, va_map=0.414783192791, te_map=0.5765833686139999
+Excuting agent 0017-0008
+Using TensorFlow backend.
+Generation 17 0 Fitness= 0.428936148455 ofp= 0.926 tr_loss=0.2208, tr_acc=0.9153, va_loss=0.3832, va_acc=0.8617, va_map=0.428936148455, te_map=0.581592154738
+Excuting agent 0017-0009
+Using TensorFlow backend.
+Generation 17 2 Fitness= 0.48018597409 ofp= 0.9978500000000002 tr_loss=0.2278, tr_acc=0.897, va_loss=0.4298, va_acc=0.876, va_map=0.48018597409, te_map=0.588418538728
+Excuting agent 0017-0010
+Using TensorFlow backend.
+Generation 17 3 Fitness= 0.446822379016 ofp= 0.9979700000000002 tr_loss=0.237, tr_acc=0.895, va_loss=0.3617, va_acc=0.899, va_map=0.446822379016, te_map=0.598294921528
+Excuting agent 0017-0011
+Using TensorFlow backend.
+Generation 17 6 Fitness= 0.432968548505 ofp= 0.5968000000000013 tr_loss=0.206, tr_acc=0.9205, va_loss=0.3571, va_acc=0.8745000000000001, va_map=0.432968548505, te_map=0.56597505683
+Excuting agent 0017-0012
+Using TensorFlow backend.
+Generation 17 9 Fitness= 0.325950963694 ofp= 1.0 tr_loss=0.3416, tr_acc=0.8909, va_loss=0.3395, va_acc=0.8952, va_map=0.325950963694, te_map=0.509473103789
+Excuting agent 0017-0013
+Using TensorFlow backend.
+Generation 17 8 Fitness= 0.328240240507 ofp= 1.0 tr_loss=0.3395, tr_acc=0.8894, va_loss=0.3227, va_acc=0.9005, va_map=0.328240240507, te_map=0.521967513231
+Excuting agent 0017-0014
+Using TensorFlow backend.
+Generation 17 10 Fitness= 0.406323633268 ofp= 0.9966699999999999 tr_loss=0.2107, tr_acc=0.9135, va_loss=0.3624, va_acc=0.8943, va_map=0.406323633268, te_map=0.594739092982
+Excuting agent 0017-0015
+Using TensorFlow backend.
+Generation 17 7 Fitness= 0.433194322944 ofp= 0.8939199999999979 tr_loss=0.1932, tr_acc=0.9247, va_loss=0.3305, va_acc=0.892, va_map=0.433194322944, te_map=0.584359813242
+Generation 17 11 Fitness= 0.462847157264 ofp= 0.9014399999999997 tr_loss=0.1986, tr_acc=0.9144, va_loss=0.3548, va_acc=0.8925, va_map=0.462847157264, te_map=0.577886952499
+Generation 17 12 Fitness= 0.447653968287 ofp= 0.875200000000003 tr_loss=0.2367, tr_acc=0.909, va_loss=0.3216, va_acc=0.8967000000000001, va_map=0.447653968287, te_map=0.578229552956
+Generation 17 13 Fitness= 0.403289834043 ofp= 0.7959399999999993 tr_loss=0.2228, tr_acc=0.9091, va_loss=0.3622, va_acc=0.8759, va_map=0.403289834043, te_map=0.620462105295
+Generation 17 14 Fitness= 0.42179869294 ofp= 1.0 tr_loss=0.217, tr_acc=0.8938, va_loss=0.3563, va_acc=0.896, va_map=0.42179869294, te_map=0.542573169489
+Generation 17 15 Fitness= 0.452701992805 ofp= 0.9983499999999998 tr_loss=0.2125, tr_acc=0.9093, va_loss=0.3327, va_acc=0.8903, va_map=0.452701992805, te_map=0.545410167094
+[2017-08-28T07:38:22+00:00]Best fitness =0.4791535742457066 output11-0017-0002.txt (filterCount: 45, kernelSize: 5, poolingWindow: 6, denseSize1: 19, denseSize2: 30, dropout1: 0.7762594920417033, dropout2: 0.07306819975804187, batchSize: 11, epochCount: 43)
+shuffled indices=@[12, 11, 10, 15, 7, 14, 8, 6, 3, 9, 0, 13, 5, 1, 2, 4]
+Excuting agent 0018-0000
+Excuting agent 0018-0001
+Excuting agent 0018-0002
+Excuting agent 0018-0003
+Excuting agent 0018-0004
+Excuting agent 0018-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 18 4 Fitness= 0.47776493839 ofp= 0.9991700000000001 tr_loss=0.2621, tr_acc=0.8938, va_loss=0.3121, va_acc=0.8983, va_map=0.47776493839, te_map=0.598785698542
+Excuting agent 0018-0006
+Using TensorFlow backend.
+Generation 18 5 Fitness= 0.404648815713 ofp= 1.0 tr_loss=0.2677, tr_acc=0.8924, va_loss=0.3329, va_acc=0.8915, va_map=0.404648815713, te_map=0.611127442275
+Excuting agent 0018-0007
+Using TensorFlow backend.
+Generation 18 0 Fitness= 0.431291391325 ofp= 0.9079599999999994 tr_loss=0.2374, tr_acc=0.9018, va_loss=0.3172, va_acc=0.8968, va_map=0.431291391325, te_map=0.591519672376
+Excuting agent 0018-0008
+Using TensorFlow backend.
+Generation 18 1 Fitness= 0.396121073345 ofp= 0.9995799999999999 tr_loss=0.2301, tr_acc=0.9117, va_loss=0.3355, va_acc=0.8796, va_map=0.396121073345, te_map=0.571793337658
+Excuting agent 0018-0009
+Using TensorFlow backend.
+Generation 18 2 Fitness= 0.4352826694 ofp= 0.9778900000000001 tr_loss=0.2446, tr_acc=0.8962, va_loss=0.3644, va_acc=0.8935999999999999, va_map=0.4352826694, te_map=0.596563789956
+Excuting agent 0018-0010
+Using TensorFlow backend.
+Generation 18 3 Fitness= 0.483366770288 ofp= 1.0 tr_loss=0.218, tr_acc=0.8905999999999999, va_loss=0.363, va_acc=0.8962, va_map=0.483366770288, te_map=0.596817321971
+Excuting agent 0018-0011
+Using TensorFlow backend.
+Generation 18 8 Fitness= 0.331775175338 ofp= 1.0 tr_loss=0.3389, tr_acc=0.8909, va_loss=0.3334, va_acc=0.8952, va_map=0.331775175338, te_map=0.506132261053
+Excuting agent 0018-0012
+Using TensorFlow backend.
+Generation 18 7 Fitness= 0.474873631267 ofp= 0.8519299999999994 tr_loss=0.1918, tr_acc=0.9226, va_loss=0.3974, va_acc=0.863, va_map=0.474873631267, te_map=0.5818401186860001
+Excuting agent 0018-0013
+Using TensorFlow backend.
+Generation 18 6 Fitness= 0.482930560928 ofp= 0.8016400000000015 tr_loss=0.1864, tr_acc=0.927, va_loss=0.3405, va_acc=0.882, va_map=0.482930560928, te_map=0.600098311914
+Excuting agent 0018-0014
+Using TensorFlow backend.
+Generation 18 9 Fitness= 0.351448438099 ofp= 1.0 tr_loss=0.3422, tr_acc=0.8872, va_loss=0.3085, va_acc=0.9088000000000001, va_map=0.351448438099, te_map=0.518902462367
+Excuting agent 0018-0015
+Using TensorFlow backend.
+Generation 18 10 Fitness= 0.464661086603 ofp= 0.9374 tr_loss=0.2156, tr_acc=0.9019, va_loss=0.3484, va_acc=0.8954, va_map=0.464661086603, te_map=0.590263660158
+Generation 18 11 Fitness= 0.388250696581 ofp= 0.9554500000000009 tr_loss=0.2119, tr_acc=0.9071, va_loss=0.3047, va_acc=0.8927, va_map=0.388250696581, te_map=0.571387813258
+Generation 18 12 Fitness= 0.422411330951 ofp= 0.9171199999999994 tr_loss=0.2388, tr_acc=0.9079, va_loss=0.3288, va_acc=0.8905, va_map=0.422411330951, te_map=0.582768367054
+Generation 18 13 Fitness= 0.413594315446 ofp= 0.9832000000000001 tr_loss=0.2274, tr_acc=0.9078000000000001, va_loss=0.3472, va_acc=0.8889, va_map=0.413594315446, te_map=0.58643870029
+Generation 18 15 Fitness= 0.403841138721 ofp= 1.0 tr_loss=0.2286, tr_acc=0.8948, va_loss=0.4412, va_acc=0.88, va_map=0.403841138721, te_map=0.558912814381
+Generation 18 14 Fitness= 0.476357753807 ofp= 0.8234200000000003 tr_loss=0.1501, tr_acc=0.9399999999999999, va_loss=0.351, va_acc=0.8852, va_map=0.476357753807, te_map=0.565016329384
+[2017-08-28T08:07:54+00:00]Best fitness =0.483366770288 output11-0018-0003.txt (filterCount: 45, kernelSize: 5, poolingWindow: 6, denseSize1: 19, denseSize2: 30, dropout1: 0.7753430629813678, dropout2: 0.07065004195238823, batchSize: 11, epochCount: 44)
+shuffled indices=@[1, 11, 6, 2, 7, 15, 12, 14, 8, 9, 3, 13, 10, 4, 5, 0]
+Excuting agent 0019-0000
+Excuting agent 0019-0001
+Excuting agent 0019-0002
+Excuting agent 0019-0003
+Excuting agent 0019-0004
+Excuting agent 0019-0005
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Generation 19 4 Fitness= 0.403295668008 ofp= 0.9970600000000003 tr_loss=0.2667, tr_acc=0.896, va_loss=0.2946, va_acc=0.9097, va_map=0.403295668008, te_map=0.562045454623
+Excuting agent 0019-0006
+Using TensorFlow backend.
+Generation 19 5 Fitness= 0.434554013706 ofp= 1.0 tr_loss=0.2557, tr_acc=0.8953, va_loss=0.334, va_acc=0.8943, va_map=0.434554013706, te_map=0.597375250258
+Excuting agent 0019-0007
+Using TensorFlow backend.
+Generation 19 1 Fitness= 0.430305617545 ofp= 0.8727999999999982 tr_loss=0.2459, tr_acc=0.9046, va_loss=0.3364, va_acc=0.9028, va_map=0.430305617545, te_map=0.583871255003
+Excuting agent 0019-0008
+Using TensorFlow backend.
+Generation 19 0 Fitness= 0.440122841402 ofp= 0.0 tr_loss=0.2375, tr_acc=0.9073, va_loss=0.3748, va_acc=0.8507, va_map=0.440122841402, te_map=0.551800237959
+Excuting agent 0019-0009
+Using TensorFlow backend.
+Generation 19 2 Fitness= 0.468570361378 ofp= 1.0 tr_loss=0.2511, tr_acc=0.8902, va_loss=0.3362, va_acc=0.8972, va_map=0.468570361378, te_map=0.607395488355
+Excuting agent 0019-0010
+Using TensorFlow backend.
+Generation 19 3 Fitness= 0.446193621808 ofp= 1.0 tr_loss=0.2528, tr_acc=0.892, va_loss=0.3525, va_acc=0.8908, va_map=0.446193621808, te_map=0.598008753779
+Excuting agent 0019-0011
+Using TensorFlow backend.
+Generation 19 9 Fitness= 0.31708687382 ofp= 1.0 tr_loss=0.3439, tr_acc=0.8911, va_loss=0.3411, va_acc=0.8941, va_map=0.31708687382, te_map=0.483812373097
+Excuting agent 0019-0012
+Using TensorFlow backend.
+Generation 19 6 Fitness= 0.430214083026 ofp= 0.7656700000000017 tr_loss=0.2519, tr_acc=0.9063, va_loss=0.3559, va_acc=0.8797, va_map=0.430214083026, te_map=0.5288022463399999
+Excuting agent 0019-0013
+Using TensorFlow backend.
+Generation 19 7 Fitness= 0.458846529584 ofp= 0.980329999999999 tr_loss=0.1997, tr_acc=0.9232, va_loss=0.3387, va_acc=0.8992, va_map=0.458846529584, te_map=0.595437771313
+Excuting agent 0019-0014
+Using TensorFlow backend.
+Generation 19 8 Fitness= 0.2882980365 ofp= 1.0 tr_loss=0.3436, tr_acc=0.8898, va_loss=0.3317, va_acc=0.8978, va_map=0.2882980365, te_map=0.482964665995
+Excuting agent 0019-0015
+Using TensorFlow backend.
+Generation 19 10 Fitness= 0.461474273235 ofp= 0.9558000000000001 tr_loss=0.2, tr_acc=0.9142, va_loss=0.3441, va_acc=0.8903, va_map=0.461474273235, te_map=0.627069828081
+Generation 19 11 Fitness= 0.439713563507 ofp= 0.6422499999999987 tr_loss=0.2022, tr_acc=0.9079, va_loss=0.3801, va_acc=0.8865, va_map=0.439713563507, te_map=0.57667735737
+Generation 19 12 Fitness= 0.396109081286 ofp= 0.9782400000000002 tr_loss=0.2433, tr_acc=0.8952, va_loss=0.3643, va_acc=0.8889, va_map=0.396109081286, te_map=0.599584246279
+Generation 19 13 Fitness= 0.46598457784 ofp= 0.9742600000000007 tr_loss=0.2347, tr_acc=0.9046999999999999, va_loss=0.3771, va_acc=0.8749, va_map=0.46598457784, te_map=0.568028897542
+Generation 19 14 Fitness= 0.44488184016 ofp= 0.9819799999999996 tr_loss=0.1979, tr_acc=0.9215, va_loss=0.3346, va_acc=0.8871, va_map=0.44488184016, te_map=0.596254136141
+Generation 19 15 Fitness= 0.455890179907 ofp= 0.9892899999999994 tr_loss=0.2043, tr_acc=0.8996, va_loss=0.3667, va_acc=0.8922, va_map=0.455890179907, te_map=0.565753551642
+[2017-08-28T08:35:46+00:00]Best fitness =0.468570361378 output11-0019-0002.txt (filterCount: 46, kernelSize: 5, poolingWindow: 6, denseSize1: 18, denseSize2: 30, dropout1: 0.7743658464435142, dropout2: 0.06944120271523059, batchSize: 11, epochCount: 43)
+shuffled indices=@[7, 9, 13, 0, 4, 14, 8, 3, 12, 15, 1, 5, 10, 11, 2, 6]

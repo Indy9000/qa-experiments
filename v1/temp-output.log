@@ -1,0 +1,8 @@
+Excuting agent 0000-0000
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "exp-06.py", line 263, in <module>
+    earlyStopping=keras.callbacks.EarlyStopping(monitor='val_loss', patience=2, verbose=0, mode='auto')
+NameError: name 'keras' is not defined
+fitness 0 0 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+[2017-08-12T12:11:18+00:00]Best fitness =0.0 output6-0000-0000.txt (filterCount: 24, kernelSize: 5, poolingWindow: 20, denseSize: 99, dropout: 0.4437264946689483, batchSize: 27, epochCount: 63)

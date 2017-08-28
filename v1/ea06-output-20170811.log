@@ -1,0 +1,940 @@
+Excuting agent 0000-0000
+Excuting agent 0000-0001
+Excuting agent 0000-0006
+Excuting agent 0000-0004
+Excuting agent 0000-0002
+Excuting agent 0000-0003
+Excuting agent 0000-0005
+Excuting agent 0000-0007
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 4 0.122072569237 precision=0.287671232877, recall=0.325942350333, f1=0.305613305613, avg_prec=0.346318099117, map=0.122072569237
+Excuting agent 0000-0008
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 7 0.148119226552 precision=0.422535211268, recall=0.0322580645161, f1=0.0599400599401, avg_prec=0.277346687842, map=0.148119226552
+Excuting agent 0000-0009
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 8 0.111447347594 precision=0.200902934537, recall=0.0901722391084, f1=0.124475524476, avg_prec=0.191522838769, map=0.111447347594
+Excuting agent 0000-0010
+Using TensorFlow backend.
+fitness 0 2 0.114525193421 precision=0.188679245283, recall=0.0224215246637, f1=0.0400801603206, avg_prec=0.148535695039, map=0.114525193421
+Excuting agent 0000-0011
+Using TensorFlow backend.
+fitness 0 9 0.142876655765 precision=0.370558375635, recall=0.368314833502, f1=0.369433198381, avg_prec=0.408605669766, map=0.142876655765
+Excuting agent 0000-0012
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 3 0.143011944319 precision=0.399305555556, recall=0.215759849906, f1=0.280146163216, avg_prec=0.353695043979, map=0.143011944319
+Excuting agent 0000-0013
+Using TensorFlow backend.
+fitness 0 6 0.127492993415 precision=0.370786516854, recall=0.0661322645291, f1=0.112244897959, avg_prec=0.270608003046, map=0.127492993415
+Excuting agent 0000-0014
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 0 0.131311451509 precision=0.35, recall=0.166508087536, f1=0.225660863959, avg_prec=0.303154095024, map=0.131311451509
+Excuting agent 0000-0015
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 11 0.114596928376 precision=0.284153005464, recall=0.0416666666667, f1=0.0726764500349, avg_prec=0.214608634371, map=0.114596928376
+Excuting agent 0000-0016
+Using TensorFlow backend.
+fitness 0 10 0.162006370089 precision=0.401666666667, recall=0.288277511962, f1=0.3356545961, avg_prec=0.383729254504, map=0.162006370089
+Excuting agent 0000-0017
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 13 0.115162960111 precision=0.285087719298, recall=0.0656565656566, f1=0.106732348112, avg_prec=0.227373491702, map=0.115162960111
+Excuting agent 0000-0018
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 15 0.140632593515 precision=0.152292152292, recall=0.234169653524, f1=0.184557438795, avg_prec=0.228574969957, map=0.140632593515
+Excuting agent 0000-0019
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 14 0.121346541971 precision=0.338842975207, recall=0.0400782013685, f1=0.0716783216783, avg_prec=0.242290370943, map=0.121346541971
+Excuting agent 0000-0020
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 1 0.130412899227 precision=0.255319148936, recall=0.0462427745665, f1=0.0783034257749, avg_prec=0.205695539075, map=0.130412899227
+Excuting agent 0000-0021
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 5 0.132589261818 precision=0.5, recall=0.150462962963, f1=0.231316725979, avg_prec=0.366168458615, map=0.132589261818
+Excuting agent 0000-0022
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 18 0.134025753951 precision=0.290381125227, recall=0.163265306122, f1=0.209013716525, avg_prec=0.273240061593, map=0.134025753951
+Excuting agent 0000-0023
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 20 0.142131209557 precision=0.23629489603, recall=0.131302521008, f1=0.16880486158, avg_prec=0.228886485207, map=0.142131209557
+Excuting agent 0000-0024
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 21 0.118374707847 precision=0.226305609284, recall=0.126486486486, f1=0.162274618585, avg_prec=0.218967175388, map=0.118374707847
+Excuting agent 0000-0025
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 17 0.12432708994 precision=0.314606741573, recall=0.112903225806, f1=0.166172106825, avg_prec=0.262763671594, map=0.12432708994
+Excuting agent 0000-0026
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 12 0.143147284078 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.555370985604, map=0.143147284078
+Excuting agent 0000-0027
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 25 0.133365245775 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.558482810164, map=0.133365245775
+Excuting agent 0000-0028
+Using TensorFlow backend.
+fitness 0 16 0.130400311474 precision=0.291666666667, recall=0.0674518201285, f1=0.109565217391, avg_prec=0.238851278796, map=0.130400311474
+Excuting agent 0000-0029
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 22 0.103350889325 precision=0.55, recall=0.0345188284519, f1=0.0649606299213, avg_prec=0.346496104789, map=0.103350889325
+Excuting agent 0000-0030
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 23 0.128371775019 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.555508067101, map=0.128371775019
+Excuting agent 0000-0031
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 0 29 0.119346590839 precision=0.204855842185, recall=0.258373205742, f1=0.228523063902, avg_prec=0.2692249287, map=0.119346590839
+fitness 0 24 0.13341981832 precision=0.0649350649351, recall=0.0255885363357, f1=0.0367107195301, avg_prec=0.095883942505, map=0.13341981832
+fitness 0 19 0.160700539368 precision=0.431818181818, recall=0.0397905759162, f1=0.07286673058489999, avg_prec=0.286845233815, map=0.160700539368
+fitness 0 28 0.117696799943 precision=0.2375, recall=0.254789272031, f1=0.24584103512, avg_prec=0.28879346838, map=0.117696799943
+fitness 0 27 0.154233401644 precision=0.185683912119, recall=0.295377677565, f1=0.228024369017, avg_prec=0.283759457174, map=0.154233401644
+fitness 0 26 0.162292177043 precision=0.5030425963489999, recall=0.243854473943, f1=0.328476821192, avg_prec=0.414383273781, map=0.162292177043
+fitness 0 30 0.122755683982 precision=0.334375, recall=0.239641657335, f1=0.279191128506, avg_prec=0.329182241711, map=0.122755683982
+fitness 0 31 0.130747264556 precision=0.517786561265, recall=0.131658291457, f1=0.209935897436, avg_prec=0.377482563147, map=0.130747264556
+[2017-08-12T06:50:30+00:00]Best fitness =0.162292177043 output6-0000-0026.txt (filterCount: 59, kernelSize: 4, poolingWindow: 6, denseSize: 23, dropout: 0.104379425846975, batchSize: 154, epochCount: 78)
+Excuting agent 0001-0000
+Excuting agent 0001-0001
+Excuting agent 0001-0002
+Excuting agent 0001-0003
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 3 0.0927863106773 precision=0.366176470588, recall=0.228860294118, f1=0.281674208145, avg_prec=0.344722163156, map=0.0927863106773
+Excuting agent 0001-0004
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 2 0.134899680815 precision=0.221153846154, recall=0.323943661972, f1=0.262857142857, avg_prec=0.307751281424, map=0.134899680815
+Excuting agent 0001-0005
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 0 0.112683224283 precision=0.171775417299, recall=0.542665388303, f1=0.260949746427, avg_prec=0.382066740961, map=0.112683224283
+Excuting agent 0001-0006
+Using TensorFlow backend.
+fitness 1 1 0.149275167405 precision=0.206963249516, recall=0.241262683202, f1=0.222800624675, avg_prec=0.264990031471, map=0.149275167405
+Excuting agent 0001-0007
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 6 0.118187638671 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.556079488043, map=0.118187638671
+Excuting agent 0001-0008
+Using TensorFlow backend.
+fitness 1 7 0.108665523431 precision=0.226244343891, recall=0.399201596806, f1=0.28880866426, avg_prec=0.343805167788, map=0.108665523431
+Excuting agent 0001-0009
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 9 0.151859367533 precision=0.455665024631, recall=0.207865168539, f1=0.28549382716, avg_prec=0.376916883443, map=0.151859367533
+Excuting agent 0001-0010
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 8 0.124690335787 precision=0.407284768212, recall=0.230337078652, f1=0.294258373206, avg_prec=0.359435614546, map=0.124690335787
+Excuting agent 0001-0011
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 10 0.120202416449 precision=0.433333333333, recall=0.196120689655, f1=0.270029673591, avg_prec=0.35932289863, map=0.120202416449
+Excuting agent 0001-0012
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 11 0.128622594534 precision=0.247814910026, recall=0.513859275053, f1=0.33437391606, avg_prec=0.408132674965, map=0.128622594534
+Excuting agent 0001-0013
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+fitness 1 4 0.135573045189 precision=0.19347133758, recall=0.502066115702, f1=0.279310344828, avg_prec=0.373494601961, map=0.135573045189
+Excuting agent 0001-0014
+Using TensorFlow backend.
+fitness 1 5 0.130784335709 precision=0.390532544379, recall=0.136787564767, f1=0.202609363008, avg_prec=0.309917273587, map=0.130784335709
+Excuting agent 0001-0015
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1079, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1079, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1256, in _run_fn
+    with errors.raise_exception_on_not_ok_status() as status:
+  File "/usr/lib/python2.7/contextlib.py", line 84, in helper
+    return GeneratorContextManager(func(*args, **kwds))
+  File "/usr/lib/python2.7/contextlib.py", line 12, in __init__
+    def __init__(self, gen):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1099, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/callbacks.py", line 77, in on_epoch_end
+  File "exp-06.py", line 236, in on_epoch_end
+    pred = self.model.predict(self.training_X)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1517, in predict
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1141, in _predict_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1079, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+fitness 1 15 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.550597976081, map=0.0
+Excuting agent 0001-0016
+Using TensorFlow backend.
+fitness 1 12 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.561856287425, map=0.0
+Excuting agent 0001-0017
+fitness 1 13 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.553273501323, map=0.0
+Excuting agent 0001-0018
+fitness 1 14 0.0 precision=0.45, recall=0.0100222717149, f1=0.0196078431373, avg_prec=0.286441248845, map=0.0
+Excuting agent 0001-0019
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1099, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/callbacks.py", line 77, in on_epoch_end
+  File "exp-06.py", line 236, in on_epoch_end
+    pred = self.model.predict(self.training_X)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1517, in predict
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1141, in _predict_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1099, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1099, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/callbacks.py", line 77, in on_epoch_end
+  File "exp-06.py", line 236, in on_epoch_end
+  File "build/bdist.linux-x86_64/egg/keras/callbacks.py", line 77, in on_epoch_end
+    pred = self.model.predict(self.training_X)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1517, in predict
+  File "exp-06.py", line 236, in on_epoch_end
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1141, in _predict_loop
+    pred = self.model.predict(self.training_X)
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1517, in predict
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1141, in _predict_loop
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "exp-06.py", line 264, in <module>
+    epochs=epoch_count, batch_size=batch_size, callbacks=[metrics], verbose=2)
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1430, in fit
+  File "build/bdist.linux-x86_64/egg/keras/engine/training.py", line 1079, in _fit_loop
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 2268, in __call__
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 896, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1124, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1279, in _do_run
+    options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1285, in _do_call
+    return fn(*args)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1264, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+fitness 1 19 0.0 precision=0.258358662614, recall=0.0894736842105, f1=0.132916340891, avg_prec=0.223731884078, map=0.0
+Excuting agent 0001-0020
+fitness 1 18 0.0 precision=0.4, recall=0.0195016251354, f1=0.0371900826446, avg_prec=0.266405376234, map=0.0
+Excuting agent 0001-0021
+fitness 1 16 0.0 precision=0.138438133874, recall=0.300330033003, f1=0.189517528636, avg_prec=0.255170714094, map=0.0
+Excuting agent 0001-0022
+fitness 1 17 0.0 precision=0.277372262774, recall=0.135714285714, f1=0.182254196643, avg_prec=0.252749995222, map=0.0
+Excuting agent 0001-0023
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+fitness 1 21 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0024
+fitness 1 23 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 1 20 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0025
+fitness 1 22 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0026
+Excuting agent 0001-0027
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+fitness 1 24 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0028
+fitness 1 25 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 1 27 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0029
+Excuting agent 0001-0030
+fitness 1 26 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0001-0031
+fitness 1 30 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 1 29 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 1 28 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 1 31 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+[2017-08-12T11:26:17+00:00]Best fitness =0.151859367533 output6-0001-0009.txt (filterCount: 69, kernelSize: 2, poolingWindow: 13, denseSize: 97, dropout: 0.4094673852434836, batchSize: 121, epochCount: 16)
+Excuting agent 0002-0000
+Excuting agent 0002-0001
+Excuting agent 0002-0003
+Excuting agent 0002-0002
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+fitness 2 0 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0004
+fitness 2 1 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0005
+fitness 2 3 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0006
+fitness 2 2 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0007
+fitness 2 5 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0008
+fitness 2 4 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0009
+fitness 2 7 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0010
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 63, in <module>
+    from tensorflow.python.framework.framework_lib import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/framework_lib.py", line 100, in <module>
+    from tensorflow.python.framework.subscribe import subscribe
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/subscribe.py", line 25, in <module>
+    from tensorflow.python.ops import array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/array_ops.py", line 98, in <module>
+    from tensorflow.python.ops import gen_math_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_math_ops.py", line 6949, in <module>
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 63, in <module>
+    from tensorflow.python.framework.framework_lib import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/framework_lib.py", line 100, in <module>
+    from tensorflow.python.framework.subscribe import subscribe
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/subscribe.py", line 25, in <module>
+    from tensorflow.python.ops import array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/array_ops.py", line 97, in <module>
+    from tensorflow.python.ops import gen_array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_array_ops.py", line 6945, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 63, in <module>
+    from tensorflow.python.framework.framework_lib import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/framework_lib.py", line 100, in <module>
+    from tensorflow.python.framework.subscribe import subscribe
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/subscribe.py", line 25, in <module>
+    from tensorflow.python.ops import array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/array_ops.py", line 97, in <module>
+    from tensorflow.python.ops import gen_array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_array_ops.py", line 6945, in <module>
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_array_ops.py", line 3959, in _InitOpDefLibrary
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_array_ops.py", line 3959, in _InitOpDefLibrary
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 63, in <module>
+    from tensorflow.python.framework.framework_lib import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/framework_lib.py", line 100, in <module>
+    from tensorflow.python.framework.subscribe import subscribe
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/subscribe.py", line 25, in <module>
+    from tensorflow.python.ops import array_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/array_ops.py", line 98, in <module>
+    from tensorflow.python.ops import gen_math_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_math_ops.py", line 6949, in <module>
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+    self._MergeField(tokenizer, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+        _op_def_lib = _InitOpDefLibrary()
+return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_math_ops.py", line 2860, in _InitOpDefLibrary
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+        self._MergeField(tokenizer, message)
+self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 596, in _MergeField
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    if (hasattr(message_descriptor, 'syntax') and
+    return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+KeyboardInterrupt
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+    self._MergeField(tokenizer, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_math_ops.py", line 2860, in _InitOpDefLibrary
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+    merger(tokenizer, message, field)
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+    self._MergeField(tokenizer, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 628, in _MergeField
+    name = tokenizer.ConsumeIdentifierOrNumber()
+      File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1092, in ConsumeIdentifierOrNumber
+self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 830, in _MergeScalarField
+    self.NextToken()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1251, in NextToken
+    getattr(message, field.name).append(value)
+KeyboardInterrupt
+    self._previous_line = self._line
+KeyboardInterrupt
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 845, in _MergeScalarField
+    setattr(message, field.name, value)
+KeyboardInterrupt
+fitness 2 10 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0011
+fitness 2 6 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+fitness 2 9 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0012
+Excuting agent 0002-0013
+fitness 2 8 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0014
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 72, in <module>
+    from tensorflow.python.ops.standard_ops import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/standard_ops.py", line 17, in <module>
+    """Import names of Tensor Flow standard Ops."""
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 72, in <module>
+    from tensorflow.python.ops.standard_ops import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/standard_ops.py", line 64, in <module>
+    from tensorflow.python.ops.parsing_ops import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/parsing_ops.py", line 31, in <module>
+    from tensorflow.python.ops import gen_parsing_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_parsing_ops.py", line 756, in <module>
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_parsing_ops.py", line 346, in _InitOpDefLibrary
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    descriptor_pool=descriptor_pool)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+    return parser.MergeLines(lines, message)
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 72, in <module>
+    self._MergeField(tokenizer, message)
+      File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+from tensorflow.python.ops.standard_ops import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/standard_ops.py", line 53, in <module>
+    from tensorflow.python.ops.gradients import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gradients.py", line 22, in <module>
+    from tensorflow.python.ops.gradients_impl import AggregationMethod
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gradients_impl.py", line 41, in <module>
+    from tensorflow.python.ops import image_grad  # pylint: disable=unused-import
+      File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/image_grad.py", line 24, in <module>
+merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 628, in _MergeField
+    name = tokenizer.ConsumeIdentifierOrNumber()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1092, in ConsumeIdentifierOrNumber
+Traceback (most recent call last):
+  File "exp-06.py", line 6, in <module>
+    from keras.preprocessing.text import Tokenizer
+  File "build/bdist.linux-x86_64/egg/keras/__init__.py", line 3, in <module>
+    self.NextToken()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1255, in NextToken
+  File "build/bdist.linux-x86_64/egg/keras/utils/__init__.py", line 6, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/utils/conv_utils.py", line 3, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/__init__.py", line 83, in <module>
+  File "build/bdist.linux-x86_64/egg/keras/backend/tensorflow_backend.py", line 1, in <module>
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/__init__.py", line 77, in <module>
+    self._SkipWhitespace()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 995, in _SkipWhitespace
+    from tensorflow.python.estimator import estimator_lib as estimator
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator_lib.py", line 22, in <module>
+    from tensorflow.python.estimator.canned.dnn import DNNClassifier
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/canned/dnn.py", line 23, in <module>
+    from tensorflow.python.estimator import estimator
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 48, in <module>
+    from tensorflow.python.training import training
+        self._PopLine()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/training.py", line 110, in <module>
+from tensorflow.python.ops import gen_image_ops
+KeyboardInterrupt  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_image_ops.py", line 2328, in <module>
+
+    from tensorflow.python.training.adadelta import AdadeltaOptimizer
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_image_ops.py", line 1180, in _InitOpDefLibrary
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/adadelta.py", line 24, in <module>
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+    self._MergeField(tokenizer, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 822, in _MergeScalarField
+    value = tokenizer.ConsumeEnum(field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1227, in ConsumeEnum
+    self.NextToken()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1261, in NextToken
+    from tensorflow.python.training import training_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/training_ops.py", line 22, in <module>
+    match = self._TOKEN.match(self._current_line, self._column)
+KeyboardInterrupt
+    from tensorflow.python.training import gen_training_ops
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/gen_training_ops.py", line 4535, in <module>
+    _op_def_lib = _InitOpDefLibrary()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/gen_training_ops.py", line 1664, in _InitOpDefLibrary
+    _text_format.Merge(_InitOpDefLibrary.op_list_ascii, op_list)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 481, in Merge
+    descriptor_pool=descriptor_pool)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 535, in MergeLines
+    return parser.MergeLines(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 568, in MergeLines
+    self._ParseOrMerge(lines, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 583, in _ParseOrMerge
+    self._MergeField(tokenizer, message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 684, in _MergeField
+    merger(tokenizer, message, field)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 773, in _MergeMessageField
+    self._MergeField(tokenizer, sub_message)
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 628, in _MergeField
+    name = tokenizer.ConsumeIdentifierOrNumber()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1092, in ConsumeIdentifierOrNumber
+    self.NextToken()
+  File "/usr/local/lib/python2.7/dist-packages/google/protobuf/text_format.py", line 1261, in NextToken
+    match = self._TOKEN.match(self._current_line, self._column)
+KeyboardInterrupt
+fitness 2 11 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0015
+fitness 2 12 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0016
+fitness 2 14 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0017
+fitness 2 13 0.0 precision=0.0, recall=0.0, f1=0.0, avg_prec=0.0, map=0.0
+Excuting agent 0002-0018
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.

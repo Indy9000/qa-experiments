@@ -1,27 +1,16 @@
 import os, unicode, strutils, streams, tables, parsecsv, algorithm, random
 
 proc main()=
-    let line ="Metrics-val: precision= 1.0 ,recall= 0.136363636364 ,f1= 0.24 ,avg_prec= 0.598404511713"
+    let line ="26s - loss: 0.3458 - acc: 0.8907 - val_loss: 0.3320 - val_acc: 0.896"
 
-    let token="Metrics-val:"
+    let token="s - loss: "
     let k=line.find(token)
     let ll = line[(k+len(token)) .. ^1]
     let split_tokens = splitWhitespace(ll)
     for t in split_tokens:
         echo "[",t,"]"
-    let precision = parseFloat(split_tokens[1])
-    let recall    = parseFloat(split_tokens[3])
-    let f1        = parseFloat(split_tokens[5])
-    let avg_prec  = parseFloat(split_tokens[7])
+    let tr_loss = parseFloat(split_tokens[0])
+    let tr_acc  = parseFloat(split_tokens[3])
+    let va_loss = parseFloat(split_tokens[6])
+    let va_acc  = parseFloat(split_tokens[9])
 main()
-
-
-
-#[precision=]
-#[1.0]
-#[,recall=]
-#[0.136363636364]
-#[,f1=]
-#[0.24]
-#[,avg_prec=]
-#[0.598404511713]

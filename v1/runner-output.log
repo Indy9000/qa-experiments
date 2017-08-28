@@ -1,0 +1,35 @@
+Running experiment-00.sh
+20170812-1253
+20170812
+./experiment-00.sh: line 8: 20622 Segmentation fault      (core dumped) ./ea06 50 32 0.25 0.1 ./output/$OUTPUT_FOLDER/ &> ea06-output-$OUTPUT_LOG.log
+Running experiment-01.sh
+20170813-1053
+20170813
+mkdir: cannot create directory ‘./output/20170813-1053’: No space left on device
+Running experiment-02.sh
+chmod: cannot access './experiment-02.sh': No such file or directory
+./runner.sh: line 8: ./experiment-02.sh: No such file or directory
+Running experiment-03.sh
+chmod: cannot access './experiment-03.sh': No such file or directory
+./runner.sh: line 8: ./experiment-03.sh: No such file or directory
+Running experiment-04.sh
+chmod: cannot access './experiment-04.sh': No such file or directory
+./runner.sh: line 8: ./experiment-04.sh: No such file or directory
+Running experiment-05.sh
+chmod: cannot access './experiment-05.sh': No such file or directory
+./runner.sh: line 8: ./experiment-05.sh: No such file or directory
+Running experiment-06.sh
+chmod: cannot access './experiment-06.sh': No such file or directory
+./runner.sh: line 8: ./experiment-06.sh: No such file or directory
+Running experiment-07.sh
+chmod: cannot access './experiment-07.sh': No such file or directory
+./runner.sh: line 8: ./experiment-07.sh: No such file or directory
+Running experiment-08.sh
+chmod: cannot access './experiment-08.sh': No such file or directory
+./runner.sh: line 8: ./experiment-08.sh: No such file or directory
+Running experiment-09.sh
+chmod: cannot access './experiment-09.sh': No such file or directory
+./runner.sh: line 8: ./experiment-09.sh: No such file or directory
+Running experiment-10.sh
+chmod: cannot access './experiment-10.sh': No such file or directory
+./runner.sh: line 8: ./experiment-10.sh: No such file or directory

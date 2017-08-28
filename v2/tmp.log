@@ -1,0 +1,65 @@
+Processing text dataset
+Found 1216 questions
+Dataset  train-all.csv  loaded. question count= 1216
+training set= 973
+validation set= 243
+val start index= 36285
+sequences[0]= [13, 11, 1, 36, 576, 3, 176, 1, 36, 576, 3, 176, 177, 6248, 9672, 9019, 4, 7]
+max seq len= 66
+Found 39348 unique tokens
+Shape of full_dataset tensor= (44647, 70)
+Shape of full_label tensor= (44647,)
+len(full_labels) 44647
+Shape of training samples (36285, 70)
+Shape of training labels (36285,)
+Shape of validation samples (8362, 70)
+Shape of validation labels (8362,)
+Loading word vectors.
+Found 400000 word vectors.
+words without embeddings = 2355
+filter-count =  10 kernel-size= 5 pooling-window= 10 dense-size 50 dropout= 0.4 batch-size= 32 epoch-count= 20
+shape input =  (?, 70)
+shape embed =  (?, 70, 100)
+shape conv1d =  (?, 66, 10)
+shape maxp1d =  (?, 6, 10)
+shape flat =  (?, ?)
+shape dense =  (?, 1)
+Train on 36285 samples, validate on 8362 samples
+Epoch 1/20
+14s - loss: 0.3398 - acc: 0.8880 - val_loss: 0.2992 - val_acc: 0.9034
+Epoch 2/20
+14s - loss: 0.3080 - acc: 0.8897 - val_loss: 0.2971 - val_acc: 0.9031
+Epoch 3/20
+15s - loss: 0.2915 - acc: 0.8931 - val_loss: 0.3009 - val_acc: 0.9028
+Epoch 4/20
+14s - loss: 0.2757 - acc: 0.8956 - val_loss: 0.3063 - val_acc: 0.8975
+Epoch 5/20
+13s - loss: 0.2623 - acc: 0.8980 - val_loss: 0.3158 - val_acc: 0.8995
+Epoch 6/20
+12s - loss: 0.2516 - acc: 0.9022 - val_loss: 0.3218 - val_acc: 0.8954
+Epoch 7/20
+14s - loss: 0.2431 - acc: 0.9034 - val_loss: 0.3228 - val_acc: 0.8927
+Epoch 8/20
+14s - loss: 0.2333 - acc: 0.9084 - val_loss: 0.3305 - val_acc: 0.8860
+Epoch 9/20
+12s - loss: 0.2261 - acc: 0.9117 - val_loss: 0.3524 - val_acc: 0.8716
+Epoch 10/20
+12s - loss: 0.2226 - acc: 0.9120 - val_loss: 0.3648 - val_acc: 0.8667
+Epoch 11/20
+12s - loss: 0.2150 - acc: 0.9162 - val_loss: 0.3841 - val_acc: 0.8625
+Epoch 12/20
+15s - loss: 0.2098 - acc: 0.9178 - val_loss: 0.3973 - val_acc: 0.8555
+Epoch 13/20
+13s - loss: 0.2064 - acc: 0.9187 - val_loss: 0.4004 - val_acc: 0.8720
+
+Prediction on validation set:
+Prediction on training set:
+
+
+
+VALIDATION tp= 171 fp= 433 tn= 7121 fn= 637
+TRAINING tp= 1875 fp= 406 tn= 31855 fn= 2149
+Computing MAP for validation set
+Computing MAP for training set
+Val Mean avg Prec = 0.328540440654
+Train Mean avg Prec = 0.37185946043
