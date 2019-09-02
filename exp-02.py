@@ -45,7 +45,7 @@ def load_dataset(filename):
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         next(reader, None) #skip header (question,label,answer)
         for row in reader:
-            qa = row[0] + row[2] #append question and answer
+            qa = row[0]+' '+row[2] #append question and answer
             label = row[1]
             texts.append(qa)
             label_id = 0
@@ -80,7 +80,6 @@ print('Found %s unique tokens' % len(word_index))
 data = pad_sequences(sequences, maxlen=MAX_SEQUENCE_LENGTH)
 
 labels = to_categorical(np.asarray(labels))
-print('Shape of data tensor:', data.shape)
 print('Shape of label tensor:', labels.shape)
 
 # split the data into a training set and a validation set
